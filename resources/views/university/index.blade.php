@@ -30,10 +30,20 @@
 <![endif]-->
 
 <!-- Stylesheets -->
-<link rel="stylesheet" media="screen" href="{{ asset('js/bootstrap/bootstrap.min.css') }}" type="text/css" />
+<link rel="stylesheet" media="screen" href="js/bootstrap/bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" href="js/mainmenu/menu.css" type="text/css" />
+<link rel="stylesheet" href="css/default.css" type="text/css" />
+<link rel="stylesheet" href="css/layouts.css" type="text/css" />
+<link rel="stylesheet" href="css/shortcodes.css" type="text/css" />
+<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" media="screen" href="css/responsive-leyouts.css" type="text/css" />
+<link rel="stylesheet" href="js/masterslider/style/masterslider.css" />
+<link rel="stylesheet" type="text/css" href="css/Simple-Line-Icons-Webfont/simple-line-icons.css" media="screen" />
+<link rel="stylesheet" href="css/et-line-font/et-line-font.css">
+<link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="js/tabs/assets/css/responsive-tabs.css">
+<!-- <link rel="stylesheet" media="screen" href="{{ asset('js/bootstrap/bootstrap.min.css') }}" type="text/css" />
 <link rel="stylesheet" href="{{ asset('js/mainmenu/menu.css') }}" type="text/css" />
-
-<!-- <link rel="stylesheet" href="css/default.css" type="text/css" /> -->
 <link rel="stylesheet" href="{{ asset('/css/default.css') }}" type="text/css" />
 <link rel="stylesheet" href="{{ asset('/css/layouts.css') }}" type="text/css" />
 <link rel="stylesheet" href="{{ asset('/css/shortcodes.css') }}" type="text/css" />
@@ -43,7 +53,7 @@
 <link rel="stylesheet" type="text/css" href="{{ asset('css/Simple-Line-Icons-Webfont/simple-line-icons.css') }}" media="screen" />
 <link rel="stylesheet" href="{{ asset('css/et-line-font/et-line-font.css') }}">
 <link href="{{ asset('js/owl-carousel/owl.carousel.css') }}" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="js/tabs/assets/css/responsive-tabs.css">
+<link rel="stylesheet" type="text/css" href="js/tabs/assets/css/responsive-tabs.css"> -->
 
 
 

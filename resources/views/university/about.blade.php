@@ -19,7 +19,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- Favicon -->
-<link rel="shortcut icon" href="{{ asset('images/favicon.ico') }}" type="image/x-icon">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 
 <!-- Google fonts - witch you want to use - (rest you can just remove) -->
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
@@ -30,32 +30,22 @@
 <![endif]-->
 
 <!-- Stylesheets -->
-<link rel="stylesheet" media="screen" href="{{ asset('js/bootstrap/bootstrap.min.css') }}" type="text/css" />
-<link rel="stylesheet" href="{{ asset('js/mainmenu/menu.css') }}" type="text/css" />
-<link rel="stylesheet" href="{{ asset('css/default.css') }}" type="text/css" />
-<link rel="stylesheet" href="{{ asset('css/layouts.css') }}" type="text/css" />
-<link rel="stylesheet" href="{{ asset('css/shortcodes.css') }}" type="text/css" />
-<link rel="stylesheet" href="{{ asset('css/font-awesome/css/font-awesome.min.css') }}">
-<link rel="stylesheet" media="screen" href="{{ asset('css/responsive-leyouts.css') }}" type="text/css" />
-<link rel="stylesheet" type="text/css" href="{{ asset('css/Simple-Line-Icons-Webfont/simple-line-icons.css') }}" media="screen" />
-<link rel="stylesheet" href="{{ asset('css/et-line-font/et-line-font.css') }}">
+<link rel="stylesheet" media="screen" href="js/bootstrap/bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" href="js/mainmenu/menu.css" type="text/css" />
+<link rel="stylesheet" href="css/default.css" type="text/css" />
+<link rel="stylesheet" href="css/layouts.css" type="text/css" />
+<link rel="stylesheet" href="css/shortcodes.css" type="text/css" />
+<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" media="screen" href="css/responsive-leyouts.css" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/Simple-Line-Icons-Webfont/simple-line-icons.css" media="screen" />
+<link rel="stylesheet" href="css/et-line-font/et-line-font.css">
 
 
 
 <!-- <link rel="stylesheet" type="text/css" href="js/smart-forms/smart-forms.css"> -->
 
 <!-- Remove the below comments to use your color option -->
-<link rel="stylesheet" href="{{ asset('css/colors/main.css') }}" />
-<!-- <link rel="stylesheet" href="{{ asset('css/colors/orange.css') }}" /> -->
-<!--<link rel="stylesheet" href="{{ asset('css/colors/green.css') }}" />-->
-<!--<link rel="stylesheet" href="{{ asset('css/colors/pink.css') }}" />-->
-<!--<link rel="stylesheet" href="{{ asset('css/colors/red.css') }}" />-->
-<!-- <link rel="stylesheet" href="{{ asset('css/colors/purple.css') }}" /> -->
-<!--<link rel="stylesheet" href="{{ asset('css/colors/bridge.css') }}" />-->
-<!--<link rel="stylesheet" href="{{ asset('css/colors/yellow.css') }}" />-->
-<!--<link rel="stylesheet" href="{{ asset('css/colors/violet.css') }}" />-->
-<!--<link rel="stylesheet" href="{{ asset('css/colors/cyan.css') }}" />-->
-<!--<link rel="stylesheet" href="{{ asset('css/colors/mossgreen.css') }}" />-->
+<link rel="stylesheet" href="css/colors/main.css" />
 
 </head>
 
@@ -66,31 +56,26 @@
       <div class="navbar pink-3 navbar-default yamm">
         <div class="navbar-header">
           <button type="button" data-toggle="collapse" data-target="#navbar-collapse-grid" class="navbar-toggle two three"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-          <a href="{{url('/index')}}" class="navbar-brand less-top-padding"><img src="images/logo.png" alt=""/></a> </div>
+          <a href="/index" class="navbar-brand less-top-padding"><img src="images/logo.png" style="height: 50px;"alt=""/></a> </div>
         <div id="navbar-collapse-grid" class="navbar-collapse collapse pull-right">
           <ul class="nav pink-3 navbar-nav">
-            <li><a href="{{url('/index')}}" class="dropdown-toggle">หน้าแรก</a></li>
-            <li class="dropdown"><a href="{{url('/about')}}" class="dropdown-toggle active">เกี่ยวกับเรา</a>
+            <li><a href="/index" class="dropdown-toggle">หน้าแรก</a></li>
+            <li class="dropdown"><a href="/about" class="dropdown-toggle active">เกี่ยวกับเรา</a>
             <ul class="dropdown-menu five" role="menu">
-              <li><a href="{{url('/vision')}}" class="dropdown-toggle">วิสัยทัศน์</a></li>
+              <li><a href="/vision" class="dropdown-toggle">วิสัยทัศน์</a></li>
               </ul>
             </li>
-            <li><a href="{{url('/gallery')}}" class="dropdown-toggle">ภาพ</a></li>
-            <!-- <li><a href="{{url('/blog')}}" class="dropdown-toggle">Blog</a></li> -->
-            <li><a href="{{url('/staff')}}" class="dropdown-toggle">คณะกรรมการบริหารหลักสูตร</a></li>
+            <li><a href="/gallery" class="dropdown-toggle">ภาพ</a></li>
+            <li><a href="/staff" class="dropdown-toggle">คณะกรรมการบริหารหลักสูตร</a></li>
             <li class="dropdown"> <a class="dropdown-toggle">เพิ่มเติม</a>
               <ul class="dropdown-menu five" role="menu">
-              <li><a href="{{url('/facilities')}}" class="dropdown-toggle">สิ่งอำนวยความสะดวก</a></li>
-              <li><a href="{{url('/admissions')}}" class="dropdown-toggle">การรับสมัคร</a></li>
-                <!-- <li> <a href="{{url('/courses')}}">Courses</a> </li> -->
-                <!-- <li> <a href="{{url('/accommodation')}}">Accommodation</a> </li> -->
-                <!-- <li> <a href="{{url('/jobs')}}">Jobs</a> </li> -->
-                <!-- <li> <a href="{{url('/student-portal')}}">Student portal</a> </li> -->
-                <li> <a href="{{url('/research')}}">วิจัย</a> </li>
-                <li> <a href="{{url('/library')}}">คลังความรู้</a> </li>
+              <li><a href="/facilities" class="dropdown-toggle">สิ่งอำนวยความสะดวก</a></li>
+              <li><a href="/admissions" class="dropdown-toggle">การรับสมัคร</a></li>
+                <li> <a href="/research">วิจัย</a> </li>
+                <li> <a href="/library">คลังความรู้</a> </li>
               </ul>
             </li>
-            <li><a href="{{url('/contact')}}" class="dropdown-toggle">ติดต่อ</a></li>
+            <li><a href="/contact" class="dropdown-toggle">ติดต่อ</a></li>
           </ul>
         </div>
       </div>

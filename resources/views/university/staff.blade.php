@@ -24,7 +24,7 @@
 <!-- Google fonts - witch you want to use - (rest you can just remove) -->
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
+<link href='https://fonts.googleapis.com/css?family=Chakra+Petch:400,100,300,700' rel='stylesheet' type='text/css'>
 <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
@@ -126,7 +126,7 @@
 
 </head>
 
-<body>
+<body style="font-family: Chakra Petch, sans-serif;">
   
 <div id="header">
     <div class="container">
@@ -139,7 +139,8 @@
             <li><a href="/index" class="dropdown-toggle">หน้าแรก</a></li>
             <li class="dropdown"><a href="/about" class="dropdown-toggle">เกี่ยวกับเรา</a>
             <ul class="dropdown-menu five" role="menu">
-              <li><a href="/vision" class="dropdown-toggle">วิสัยทัศน์</a></li>
+              <li><a href="/history" class="dropdown-toggle">ประวัติหลักสูตร</a></li>
+              <li><a href="/vision" class="dropdown-toggle">วิสัยทัศน์</a></li>  
               </ul>
             </li>
             <li><a href="/gallery" class="dropdown-toggle">ภาพ</a></li>
@@ -160,12 +161,13 @@
   </div>
   <!--end menu-->
   <div class="clearfix"></div>
-
+  
   <!-- ======= Team Section ======= -->
   <section id="team" class="section-bg">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
-          <h3 class="section-title">คณะกรรมการบริหารหลักสูตร</h3>
+        <br><br><br>
+          <h3 class="section-title" style="font-family: Chakra Petch, sans-serif; font-weight: bold;">คณะกรรมการบริหารหลักสูตร</h3>
           <span class="section-divider"></span>
           <p class="section-description"></p>
         </div>
@@ -173,11 +175,11 @@
           <div class="col-lg-3 col-md-6">
             <div class="member">
               <div class="pic"><img src="images/staff/1.png" alt=""></div>
-              <h4>ดร.ศิริลักษณ์ หล่อพันธ์มณี</h4>
-              <span>ประธานหลักสูตร</span>
+              <h4 style="font-family: Chakra Petch, sans-serif; padding-top: 20px;">ดร.ศิริลักษณ์ หล่อพันธ์มณี</h4>
+              <span style="font-family: Chakra Petch, sans-serif;">ประธานหลักสูตร</span>
               <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-facebook"></i></a>
                 <a href=""><i class="bi bi-instagram"></i></a>
                 <a href=""><i class="bi bi-linkedin"></i></a>
               </div>
@@ -187,7 +189,7 @@
           <div class="col-lg-3 col-md-6">
             <div class="member">
               <div class="pic"><img src="images/staff/2.jpg" alt=""></div>
-              <h4>ผศ.ดร.วิชชา ฉิมพลี</h4>
+              <h4 style="font-family: Chakra Petch, sans-serif; padding-top: 20px;">ผศ.ดร.วิชชา ฉิมพลี</h4>
               <span></span>
               <div class="social">
                 <a href=""><i class="bi bi-twitter"></i></a>
@@ -201,7 +203,7 @@
           <div class="col-lg-3 col-md-6">
             <div class="member">
               <div class="pic"><img src="images/staff/3.png" alt=""></div>
-              <h4>ผศ.ดร.ศิริพร ฉิมพลี</h4>
+              <h4 style="font-family: Chakra Petch, sans-serif; padding-top: 20px;">ผศ.ดร.ศิริพร ฉิมพลี</h4>
               <span></span>
               <div class="social">
                 <a href=""><i class="bi bi-twitter"></i></a>
@@ -215,7 +217,7 @@
           <div class="col-lg-3 col-md-6">
             <div class="member">
               <div class="pic"><img src="images/staff/4.jpg" alt=""></div>
-              <h4>ผศ.วัชรากร เนตรหาญ</h4>
+              <h4 style="font-family: Chakra Petch, sans-serif; padding-top: 20px;">ผศ.วัชรากร เนตรหาญ</h4>
               <span></span>
               <div class="social">
                 <a href=""><i class="bi bi-twitter"></i></a>
@@ -229,7 +231,7 @@
           <div class="col-lg-3 col-md-6">
             <div class="member">
               <div class="pic"><img src="images/staff/5.jpg" alt=""></div>
-              <h4> อาจารย์ณรงค์ฤทธิ์ ภิรมย์นก</h4>
+              <h4 style="font-family: Chakra Petch, sans-serif; padding-top: 20px;">อาจารย์ณรงค์ฤทธิ์ ภิรมย์นก</h4>
               <span></span>
               <div class="social">
                 <a href=""><i class="bi bi-twitter"></i></a>
@@ -244,92 +246,8 @@
 
       </div>
     </section><!-- End Team Section -->
-  
-  
-  
-  
-  
-  <section class="section-fulldark sec-padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3 clearfix">
-          <h4 class="uppercase footer-title less-mar3 roboto-slab font-weight-3">Information About</h4>
-          <div class="clearfix"></div>
-          <div class="footer-title-bottomstrip"></div>
-          <ul class="usefull-links no-border">
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Ullamcorper odio nec turpis</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Aliquam porttitor vestibulum ipsum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Lobortis enim nec nisi</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Ullamcorper odio nec turpis</a></li>
-          </ul>
-        </div>
-        <!--end item-->
-        
-        <div class="col-md-3 clearfix">
-          <!-- <div class="item-holder">
-            <h4 class="uppercase footer-title less-mar3 roboto-slab font-weight-3">Recent Posts</h4>
-            <div class="footer-title-bottomstrip"></div>
-            <div class="clearfix"></div>
-            <div class="image-left"><img src="http://placehold.it/80x80" alt=""/></div>
-            <div class="text-box-right">
-              <h6 class="text-white less-mar3 nopadding roboto-slab font-weight-3 nopadding"><a href="#">Clean And Modern</a></h6>
-              <p>Lorem ipsum dolor sit</p>
-              <div class="footer-post-info"> <span>By John Doe</span><span> May 20</span> </div>
-            </div>
-            <div class="divider-line solid dark margin opacity-6"></div>
-            <div class="clearfix"></div>
-            <div class="image-left"><img src="http://placehold.it/80x80" alt=""/></div>
-            <div class="text-box-right">
-              <h6 class="text-white less-mar3 roboto-slab font-weight-3 nopadding"><a href="#">Layered PSD Files</a></h6>
-              <p>Lorem ipsum dolor sit</p>
-              <div class="footer-post-info"> <span>By John Doe</span><span> May 20</span> </div>
-            </div>
-          </div> -->
-        </div>
-        <!--end item-->
-        
-        <div class="col-md-3 clearfix">
-          <h4 class="uppercase footer-title less-mar3 roboto-slab font-weight-3">quick links</h4>
-          <div class="clearfix"></div>
-          <div class="footer-title-bottomstrip"></div>
-          <ul class="usefull-links no-border">
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Ullamcorper odio nec turpis</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Aliquam porttitor vestibulum ipsum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Lobortis enim nec nisi</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Ullamcorper odio nec turpis</a></li>
-          </ul>
-        </div>
-        <!--end item-->
-        
-        <div class="col-md-3 clearfix">
-          <h4 class="uppercase footer-title less-mar3 roboto-slab font-weight-3">quick links</h4>
-          <div class="clearfix"></div>
-          <div class="footer-title-bottomstrip"></div>
-          <ul class="usefull-links no-border">
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Ullamcorper odio nec turpis</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Aliquam porttitor vestibulum ipsum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Lobortis enim nec nisi</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Ullamcorper odio nec turpis</a></li>
-          </ul>
-        </div>
-        <!--end item--> 
-        
-        <!--end item--> 
-        
-      </div>
-    </div>
-  </section>
-  <!--end section-->
-  <div class="clearfix"></div>
+    <div class="clearfix"></div>
+    <br>
   
   <section class="section-copyrights sec-moreless-padding">
     <div class="container">

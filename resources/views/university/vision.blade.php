@@ -24,7 +24,8 @@
 <!-- Google fonts - witch you want to use - (rest you can just remove) -->
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
+<link href='https://fonts.googleapis.com/css?family=Chakra+Petch:400,100,300,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Taviraj:400,100,300,700' rel='stylesheet' type='text/css'>
 <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
@@ -49,10 +50,16 @@
 
 <!-- Remove the below comments to use your color option -->
 <link rel="stylesheet" href="css/colors/main.css" />
+<style>
+  h1 {
+    font-family: Chakra Petch, sans-serif;
+    font-weight: bold;
+  }
+</style>
 
 </head>
 
-<body>
+<body style="font-family: Chakra Petch, sans-serif;">
 
 <div id="header">
     <div class="container">
@@ -65,7 +72,8 @@
             <li><a href="/index" class="dropdown-toggle">หน้าแรก</a></li>
             <li class="dropdown"><a href="/about" class="dropdown-toggle active">เกี่ยวกับเรา</a>
             <ul class="dropdown-menu five" role="menu">
-              <li><a href="/vision" class="dropdown-toggle">วิสัยทัศน์</a></li>
+              <li><a href="/history" class="dropdown-toggle">ประวัติหลักสูตร</a></li>
+              <li><a href="/vision" class="dropdown-toggle">วิสัยทัศน์</a></li>  
               </ul>
             </li>
             <li><a href="/gallery" class="dropdown-toggle">ภาพ</a></li>
@@ -89,116 +97,19 @@
   
   <section class="sec-padding">
     <div class="container">
-      <div class="row">
-        <div class="col-md-8">
+      <div class="row" style="font-size: 24px;">
+        <!-- <div class="col-md-8"> -->
         <h1>วิสัยทัศน์</h1>
-          <p style="text-indent: 40px;">ผลิตบัณฑิตที่มีความรู้ ความสามารถ ความคิดวิเคราะห์อย่างเป็นระบบ มีความใฝ่เรียนรู้ ก้าวทันการเปลี่ยนแปลงของเทคโนโลยีด้านวิทยาการข้อมูลและการวิเคราะห์ พร้อมด้วยคุณธรรมและจริยธรรม</p>          
-          <h1>หน้าที่ และเป้าหมาย</h1>
+          <p style="text-indent: 40px; padding-bottom: 50px; line-height: 1.6;">ผลิตบัณฑิตที่มีความรู้ ความสามารถ ความคิดวิเคราะห์อย่างเป็นระบบ มีความใฝ่เรียนรู้ ก้าวทันการเปลี่ยนแปลงของเทคโนโลยีด้านวิทยาการข้อมูลและการวิเคราะห์ พร้อมด้วยคุณธรรมและจริยธรรม</p>          
+        <h1>หน้าที่ และเป้าหมาย</h1>
           <p style="text-indent: 40px;">ผลิตบัณฑิตให้มีคุณลักษณะและคุณสมบัติ ดังนี้</p>
-          <ol>
+          <ol style="line-height: 1.6;">
               <li>มีความรู้ทางด้านวิทยาการข้อมูลและการวิเคราะห์ ที่เท่าทันการเปลี่ยนแปลง</li>
               <li>มีความสามารถในการวิเคราะห์ข้อมูลขนาดใหญ่ในมิติที่หลากหลาย และค้นหาสารสนเทศที่มีคุณค่า เพื่อสนับสนุนการตัดสินใจและปรับปรุงประสิทธิภาพทางธุรกิจ ตลอดจนเลือกใช้เครื่องมือที่เหมาะสมกับการแก้ไขปัญหาที่เกี่ยวข้อง</li>
               <li>มีความคิดวิเคราะห์และพัฒนางานด้านวิทยาการข้อมูลอย่างมีระบบ สามารถวิเคราะห์สาเหตุของปัญหา วิธีการแก้ไข และปรับตัวเข้ากับเทคโนโลยีที่มีการเปลี่ยนแปลงอยู่ตลอดเวลา</li>
               <li>มีคุณธรรม จริยธรรมในการใช้เทคโนโลยีคอมพิวเตอร์และสารสนเทศ มีความรับผิดชอบต่อหน้าที่ เคารพกฎระเบียบข้อบังคับ อยู่ในระเบียบวินัย สามารถปรับตัวอยู่ร่วมกันในสังคมพหุวัฒนธรรม และมีจรรยาบรรณ </li>   
             </ol>
-        </div>
-        
-      </div>
-    </div>
-  </section>
-  <!--end section-->
-  <div class="clearfix"></div>
-  
-  <section class="section-pink-3 section-less-padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-7 col-centered text-center">
-          <h3 class="less-mar3 roboto-slab text-white text-center font-weight-3"></h3>
-          <br/>
-          <p class="text-white"></p>
-          <br/>
-          <!-- <a class="btn btn-border white btn-large" href="#"></a> </div> -->
-      </div>
-    </div>
-  </section>
-  <!--end section-->
-  <div class="clearfix"></div>
-  
-  <section class="section-fulldark sec-padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3 clearfix">
-          <h4 class="uppercase footer-title less-mar3 roboto-slab font-weight-3">Information About</h4>
-          <div class="clearfix"></div>
-          <div class="footer-title-bottomstrip"></div>
-          <ul class="usefull-links no-border">
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Ullamcorper odio nec turpis</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Aliquam porttitor vestibulum ipsum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Lobortis enim nec nisi</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Ullamcorper odio nec turpis</a></li>
-          </ul>
-        </div>
-        <!--end item-->
-        
-        <div class="col-md-3 clearfix">
-          <div class="item-holder">
-            <h4 class="uppercase footer-title less-mar3 roboto-slab font-weight-3">Recent Posts</h4>
-            <div class="footer-title-bottomstrip"></div>
-            <div class="clearfix"></div>
-            <div class="image-left"><img src="http://placehold.it/80x80" alt=""/></div>
-            <div class="text-box-right">
-              <h6 class="text-white less-mar3 nopadding roboto-slab font-weight-3 nopadding"><a href="#">Clean And Modern</a></h6>
-              <p>Lorem ipsum dolor sit</p>
-              <div class="footer-post-info"> <span>By John Doe</span><span> May 20</span> </div>
-            </div>
-            <div class="divider-line solid dark margin opacity-6"></div>
-            <div class="clearfix"></div>
-            <div class="image-left"><img src="http://placehold.it/80x80" alt=""/></div>
-            <div class="text-box-right">
-              <h6 class="text-white less-mar3 roboto-slab font-weight-3 nopadding"><a href="#">Layered PSD Files</a></h6>
-              <p>Lorem ipsum dolor sit</p>
-              <div class="footer-post-info"> <span>By John Doe</span><span> May 20</span> </div>
-            </div>
-          </div>
-        </div>
-        <!--end item-->
-        
-        <div class="col-md-3 clearfix">
-          <h4 class="uppercase footer-title less-mar3 roboto-slab font-weight-3">quick links</h4>
-          <div class="clearfix"></div>
-          <div class="footer-title-bottomstrip"></div>
-          <ul class="usefull-links no-border">
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Ullamcorper odio nec turpis</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Aliquam porttitor vestibulum ipsum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Lobortis enim nec nisi</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Ullamcorper odio nec turpis</a></li>
-          </ul>
-        </div>
-        <!--end item-->
-        
-        <div class="col-md-3 clearfix">
-          <h4 class="uppercase footer-title less-mar3 roboto-slab font-weight-3">quick links</h4>
-          <div class="clearfix"></div>
-          <div class="footer-title-bottomstrip"></div>
-          <ul class="usefull-links no-border">
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Ullamcorper odio nec turpis</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Aliquam porttitor vestibulum ipsum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Lobortis enim nec nisi</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Ullamcorper odio nec turpis</a></li>
-          </ul>
-        </div>
-        <!--end item--> 
-        
-        <!--end item--> 
+        <!-- </div> -->
         
       </div>
     </div>

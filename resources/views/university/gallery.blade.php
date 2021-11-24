@@ -61,7 +61,8 @@
             <li><a href="/index" class="dropdown-toggle">หน้าแรก</a></li>
             <li class="dropdown"><a href="/about" class="dropdown-toggle">เกี่ยวกับเรา</a>
             <ul class="dropdown-menu five" role="menu">
-              <li><a href="/vision" class="dropdown-toggle">วิสัยทัศน์</a></li>
+              <li><a href="/history" class="dropdown-toggle">ประวัติหลักสูตร</a></li>
+              <li><a href="/vision" class="dropdown-toggle">วิสัยทัศน์</a></li>  
               </ul>
             </li>
             <li><a href="/gallery" class="dropdown-toggle active">ภาพ</a></li>
@@ -83,210 +84,61 @@
   <!--end menu-->
   <div class="clearfix"></div>
   
- <section class="sec-tpadding-2">
-    <!-- <div class="container">
-      <div class="row">
-          <h3 class=" roboto-slab uppercase less-mar3">Gallery</h3>
-            <div class="title-line-9 less-margin align-center"></div>
-            <div class="clearfix"></div>
-      </div>
-    </div> -->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="demo-full-width">
-          <div id="grid-container" class="cbp">
-            <div class="cbp-item identity logos"> <a href="http://placehold.it/800x600" class="cbp-caption cbp-lightbox" data-title="Suspendisse Imperdiet<br>by Codelayers">
-              <div class="cbp-caption-defaultWrap"> <img src="http://placehold.it/800x600" alt=""> </div>
-              <div class="cbp-caption-activeWrap">
-                <div class="cbp-l-caption-alignLeft">
-                  <div class="cbp-l-caption-body">
-                    <div class="cbp-l-caption-title">Suspendisse Imperdiet </div>
-                    <div class="cbp-l-caption-desc">by Codelayers</div>
-                  </div>
-                </div>
-              </div>
-              </a> </div>
-            <div class="cbp-item web-design"> <a href="http://placehold.it/800x600" class="cbp-caption cbp-lightbox" data-title="Magna Tempus Urna<br>by Codelayers">
-              <div class="cbp-caption-defaultWrap"> <img src="http://placehold.it/800x600" alt=""> </div>
-              <div class="cbp-caption-activeWrap">
-                <div class="cbp-l-caption-alignLeft">
-                  <div class="cbp-l-caption-body">
-                    <div class="cbp-l-caption-title">Magna Tempus Urna</div>
-                    <div class="cbp-l-caption-desc">by Codelayers</div>
-                  </div>
-                </div>
-              </div>
-              </a> </div>
-            <div class="cbp-item motion identity"> <a href="http://placehold.it/800x600" class="cbp-caption cbp-lightbox" data-title="World Clock Widget<br>by Codelayers">
-              <div class="cbp-caption-defaultWrap"> <img src="http://placehold.it/800x600" alt=""> </div>
-              <div class="cbp-caption-activeWrap">
-                <div class="cbp-l-caption-alignLeft">
-                  <div class="cbp-l-caption-body">
-                    <div class="cbp-l-caption-title">Maecenas Sed </div>
-                    <div class="cbp-l-caption-desc">by Codelayers</div>
-                  </div>
-                </div>
-              </div>
-              </a> </div>
-            <div class="cbp-item identity graphic"> <a href="http://placehold.it/800x600" class="cbp-caption cbp-lightbox" data-title="Quisque Ornare <br>by Codelayers">
-              <div class="cbp-caption-defaultWrap"> <img src="http://placehold.it/800x600" alt=""> </div>
-              <div class="cbp-caption-activeWrap">
-                <div class="cbp-l-caption-alignLeft">
-                  <div class="cbp-l-caption-body">
-                    <div class="cbp-l-caption-title">Quisque Ornare </div>
-                    <div class="cbp-l-caption-desc">by Codelayers</div>
-                  </div>
-                </div>
-              </div>
-              </a> </div>
-            <div class="cbp-item motion logos"> <a href="http://placehold.it/800x600" class="cbp-caption cbp-lightbox" data-title="Skateshop Website<br>by Codelayers">
-              <div class="cbp-caption-defaultWrap"> <img src="http://placehold.it/800x600" alt=""> </div>
-              <div class="cbp-caption-activeWrap">
-                <div class="cbp-l-caption-alignLeft">
-                  <div class="cbp-l-caption-body">
-                    <div class="cbp-l-caption-title">Hendrerit Condimentum</div>
-                    <div class="cbp-l-caption-desc">by Codelayers</div>
-                  </div>
-                </div>
-              </div>
-              </a> </div>
-            <div class="cbp-item web-design"> <a href="http://placehold.it/800x600" class="cbp-caption cbp-lightbox" data-title="Donec Dapibus Placerat <br>by Codelayers">
-              <div class="cbp-caption-defaultWrap"> <img src="http://placehold.it/800x600" alt=""> </div>
-              <div class="cbp-caption-activeWrap">
-                <div class="cbp-l-caption-alignLeft">
-                  <div class="cbp-l-caption-body">
-                    <div class="cbp-l-caption-title">Donec Dapibus Placerat </div>
-                    <div class="cbp-l-caption-desc">by Codelayers</div>
-                  </div>
-                </div>
-              </div>
-              </a> </div>
-            <div class="cbp-item identity motion"> <a href="http://placehold.it/800x600" class="cbp-caption cbp-lightbox" data-title="Mauris non Quam ac eros<br>by Codelayers">
-              <div class="cbp-caption-defaultWrap"> <img src="http://placehold.it/800x600" alt=""> </div>
-              <div class="cbp-caption-activeWrap">
-                <div class="cbp-l-caption-alignLeft">
-                  <div class="cbp-l-caption-body">
-                    <div class="cbp-l-caption-title">Mauris non Quam ac eros </div>
-                    <div class="cbp-l-caption-desc">by Codelayers</div>
-                  </div>
-                </div>
-              </div>
-              </a> </div>
-            <div class="cbp-item web-design graphic"> <a href="http://placehold.it/800x600" class="cbp-caption cbp-lightbox" data-title="Vivamus Vulputate <br>by Codelayers">
-              <div class="cbp-caption-defaultWrap"> <img src="http://placehold.it/800x600" alt=""> </div>
-              <div class="cbp-caption-activeWrap">
-                <div class="cbp-l-caption-alignLeft">
-                  <div class="cbp-l-caption-body">
-                    <div class="cbp-l-caption-title">Vivamus Vulputate </div>
-                    <div class="cbp-l-caption-desc">by Codelayers</div>
-                  </div>
-                </div>
-              </div>
-              </a> </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--end section-->
-  <div class="clearfix"></div>
-  
-  <section class="section-pink-3 section-less-padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-7 col-centered text-center">
-          <h3 class="less-mar3 roboto-slab text-white text-center font-weight-3">Get Many More Features With Hasta</h3>
+  <div class="col-divider-margin-4"></div>
+        
+        <div class="col-md-6 bmargin">
+          <h5 class="roboto-slab font-weight-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. </h5>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit augue. Cras tellus. In pulvinar lectus a est. Curabitur eget orci. Cras laoreet ligula. Etiam sit amet dolor. Vestibulum ante ipsum primis in faucibus</p>
           <br/>
-          <p class="text-white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit augue. Cras tellus.</p>
+          <ul class="iconlist dark">
+            <li><i class="fa fa-check"></i> Nullam turpis Cras dapibus orci rutrum </li>
+            <li><i class="fa fa-check"></i> Etiam enim Suspendisse imperdiet cursus nisi Maecenas </li>
+          </ul>
           <br/>
-          <a class="btn btn-border white btn-large" href="#">Purchase now</a> </div>
-      </div>
-    </div>
-  </section>
-  <!--end section-->
-  <div class="clearfix"></div>
-  
-  <section class="section-fulldark sec-padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3 clearfix">
-          <h4 class="uppercase footer-title less-mar3 roboto-slab font-weight-3">Information About</h4>
-          <div class="clearfix"></div>
-          <div class="footer-title-bottomstrip"></div>
-          <ul class="usefull-links no-border">
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Ullamcorper odio nec turpis</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Aliquam porttitor vestibulum ipsum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Lobortis enim nec nisi</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Ullamcorper odio nec turpis</a></li>
-          </ul>
-        </div>
+          <a class="btn btn-pink-3 btn-round" href="#">Read more</a></div>
+          
+          <div class="col-md-6 bmargin"><img src="images\axe.png" style="width: 800px; height:500px;" alt="" class="img-responsive"/></div>
+          
         <!--end item-->
         
-        <div class="col-md-3 clearfix">
-          <div class="item-holder">
-            <h4 class="uppercase footer-title less-mar3 roboto-slab font-weight-3">Recent Posts</h4>
-            <div class="footer-title-bottomstrip"></div>
-            <div class="clearfix"></div>
-            <div class="image-left"><img src="http://placehold.it/80x80" alt=""/></div>
-            <div class="text-box-right">
-              <h6 class="text-white less-mar3 nopadding roboto-slab font-weight-3 nopadding"><a href="#">Clean And Modern</a></h6>
-              <p>Lorem ipsum dolor sit</p>
-              <div class="footer-post-info"> <span>By John Doe</span><span> May 20</span> </div>
-            </div>
-            <div class="divider-line solid dark margin opacity-6"></div>
-            <div class="clearfix"></div>
-            <div class="image-left"><img src="http://placehold.it/80x80" alt=""/></div>
-            <div class="text-box-right">
-              <h6 class="text-white less-mar3 roboto-slab font-weight-3 nopadding"><a href="#">Layered PSD Files</a></h6>
-              <p>Lorem ipsum dolor sit</p>
-              <div class="footer-post-info"> <span>By John Doe</span><span> May 20</span> </div>
-            </div>
-          </div>
-        </div>
+        <div class="clearfix"></div>
+        <div class="col-divider-margin-4"></div>
+        <div class="col-md-6 bmargin"><img src="images\axe.png" style="width: 800px; height:500px;" alt="" class="img-responsive"/></div>
+        <div class="col-md-6 bmargin">
+          <h5 class="roboto-slab font-weight-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. </h5>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit augue. Cras tellus. In pulvinar lectus a est. Curabitur eget orci. Cras laoreet ligula. Etiam sit amet dolor. Vestibulum ante ipsum primis in faucibus</p>
+          <br/>
+          <ul class="iconlist dark">
+            <li><i class="fa fa-check"></i> Nullam turpis Cras dapibus orci rutrum </li>
+            <li><i class="fa fa-check"></i> Etiam enim Suspendisse imperdiet cursus nisi Maecenas </li>
+          </ul>
+          <br/>
+          <a class="btn btn-pink-3 btn-round" href="#">Read more</a></div>
         <!--end item-->
         
-        <div class="col-md-3 clearfix">
-          <h4 class="uppercase footer-title less-mar3 roboto-slab font-weight-3">quick links</h4>
-          <div class="clearfix"></div>
-          <div class="footer-title-bottomstrip"></div>
-          <ul class="usefull-links no-border">
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Ullamcorper odio nec turpis</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Aliquam porttitor vestibulum ipsum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Lobortis enim nec nisi</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Ullamcorper odio nec turpis</a></li>
-          </ul>
-        </div>
-        <!--end item-->
+        <div class="clearfix"></div>
+        <div class="col-divider-margin-4"></div>
         
-        <div class="col-md-3 clearfix">
-          <h4 class="uppercase footer-title less-mar3 roboto-slab font-weight-3">quick links</h4>
-          <div class="clearfix"></div>
-          <div class="footer-title-bottomstrip"></div>
-          <ul class="usefull-links no-border">
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Ullamcorper odio nec turpis</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Aliquam porttitor vestibulum ipsum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Lobortis enim nec nisi</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Ullamcorper odio nec turpis</a></li>
+        <div class="col-md-6 bmargin">
+          <h5 class="roboto-slab font-weight-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. </h5>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit augue. Cras tellus. In pulvinar lectus a est. Curabitur eget orci. Cras laoreet ligula. Etiam sit amet dolor. Vestibulum ante ipsum primis in faucibus</p>
+          <br/>
+          <ul class="iconlist dark">
+            <li><i class="fa fa-check"></i> Nullam turpis Cras dapibus orci rutrum </li>
+            <li><i class="fa fa-check"></i> Etiam enim Suspendisse imperdiet cursus nisi Maecenas </li>
           </ul>
-        </div>
-        <!--end item--> 
-        
+          <br/>
+          <a class="btn btn-pink-3 btn-round" href="#">Read more</a></div>
+          
+          <div class="col-md-6 bmargin"><img src="images\axe.png" style="width: 800px; height:500px;" alt="" class="img-responsive"/></div>
+          
         <!--end item--> 
         
       </div>
     </div>
   </section>
-  <!--end section-->
   <div class="clearfix"></div>
+  <!-- end section -->
   
   <section class="section-copyrights sec-moreless-padding">
     <div class="container">

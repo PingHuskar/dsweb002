@@ -17,6 +17,8 @@
 
 <!-- this styles only adds some repairs on idevices  -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:image" content="images/logo.png" />
+<meta property="og:image:secure_url" content="images/logo.png" />
 
 <!-- Favicon -->
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
@@ -24,7 +26,7 @@
 <!-- Google fonts - witch you want to use - (rest you can just remove) -->
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
+<link href='https://fonts.googleapis.com/css?family=Chakra+Petch:400,100,300,700' rel='stylesheet' type='text/css'>
 <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
@@ -60,7 +62,13 @@
 <!-- Remove the below comments to use your color option -->
 <link rel="stylesheet" href="css/colors/main.css" />
 <!-- <link rel="stylesheet" href="{{ asset('css/colors/main.css') }}" /> -->
-
+<style>
+  h1 {
+    font-family: Chakra Petch, sans-serif;
+    font-weight: bold;
+  }
+</style>
+</head>
 </head>
 
 <body>
@@ -106,8 +114,9 @@
             <li><a href="/index" class="dropdown-toggle active">หน้าแรก</a></li>
             <li class="dropdown"><a href="/about" class="dropdown-toggle">เกี่ยวกับเรา</a>
             <ul class="dropdown-menu five" role="menu">
-              <li><a href="/vision" class="dropdown-toggle">วิสัยทัศน์</a></li>
-              </ul>
+              <li><a href="/history" class="dropdown-toggle">ประวัติหลักสูตร</a></li>
+              <li><a href="/vision" class="dropdown-toggle">วิสัยทัศน์</a></li>  
+            </ul>
             </li>
             <li><a href="/gallery" class="dropdown-toggle">ภาพ</a></li>
             <li><a href="/staff" class="dropdown-toggle">คณะกรรมการบริหารหลักสูตร</a></li>
@@ -256,94 +265,64 @@
       <img src="js/masterslider/blank.gif" data-src="images\axe.png" alt=""/>
       </div>
     <!-- slide 3 -->
-    <div class="ms-slide slide-3" data-delay="9">
-      <div class="slide-pattern"></div>
-      <img src="js/masterslider/blank.gif" data-src="http://placehold.it/1920x630" alt=""/>
-    </div>
-    <!-- end slide 3 -->
 
   </div>
   <!-- end of masterslider -->
   <div class="clearfix"></div>
-  
-  <section class="section-pink-3 section-less-padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-10 col-centered">
-          <h3 class="less-mar3 roboto-slab text-white text-center font-weight-3">Lorem ipsum dolor sit amet consectetuer adipiscing elit Suspendisse et justo Praesent mattis commodo augue Aliquam ornare.</h3>
-        </div>
-      </div>
-    </div>
-  </section>
+
+  <section class="section-pink-3 section-less-padding"></section>
+  <section class="section-pink-3 section-less-padding"></section>
   <!--end section-->
   <div class="clearfix"></div>
-  
-  <section class="sec-padding">
+
+  <section>
     <div class="container">
-      <div class="row">
-        <div class="col-md-4 col-sm-6">
-          <div class="feature-box-81 bmargin"> <a href="#">
-            <div class="image-holder">
-              <div class="hover-strip">
-                <h4 class="text-white nopadding roboto-slab font-weight-3">Research<span class="pull-right"><i class="fa fa-angle-double-right"></i></span></h4>
-              </div>
-              <img src="http://placehold.it/400x200" alt="" class="img-responsive"/> </div>
-            </a> </div>
-          <!--end item-->
-          
-          <div class="col-divider-margin-3"></div>
-          <div class="feature-box-81 bmargin"> <a href="#">
-            <div class="image-holder">
-              <div class="hover-strip">
-                <h4 class="text-white nopadding roboto-slab font-weight-3">Colleges<span class="pull-right"><i class="fa fa-angle-double-right"></i></span></h4>
-              </div>
-              <img src="http://placehold.it/400x200" alt="" class="img-responsive"/> </div>
-            </a> </div>
-          <!--end item--> 
-          
+      <div class="divider-line solid light opacity-7 "></div>
+      <h1 style="text-align:center; padding-top: 30px;">ข้อมูลและสถิติ</h1>
+      <div class="row sec-bpadding-2">
+        <div class="col-md-3 col-sm-6 bmargin text-center">
+          <h1 class="text-white"><span class="icon-hotairballoon"></span></h1>
+          <h1 class="text-pink-3"><strong>96%</strong></h1>
+          <div class="divider-line solid align-center less-width-6 margin light"></div>
+          <h3 class="paddtop1 roboto-slab">Success Rate</span> </h3>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. </p>
         </div>
         <!--end item-->
         
-        <div class="col-md-4 col-sm-6">
-          <div class="feature-box-81 bmargin"> <a href="#">
-            <div class="image-holder">
-              <div class="hover-strip active">
-                <h4 class="text-white nopadding roboto-slab font-weight-3">Courses<span class="pull-right"><i class="fa fa-angle-double-right"></i></span></h4>
-              </div>
-              <img src="http://placehold.it/430x470" alt="" class="img-responsive"/> </div>
-            </a> </div>
-          <!--end item--> 
-          
+        <div class="col-md-3 col-sm-6 bmargin text-center">
+          <h1 class="text-white"><span class="icon-hotairballoon"></span></h1>
+          <h1 class="text-pink-3"><strong>92%</strong></h1>
+          <div class="divider-line solid align-center less-width-6 margin light"></div>
+          <h3 class="paddtop1 roboto-slab">Happy Students</span> </h3>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. </p>
         </div>
         <!--end item-->
         
-        <div class="col-md-4 col-sm-6">
-          <div class="feature-box-81 bmargin"> <a href="#">
-            <div class="image-holder">
-              <div class="hover-strip">
-                <h4 class="text-white nopadding roboto-slab font-weight-3">Fees and funding<span class="pull-right"><i class="fa fa-angle-double-right"></i></span></h4>
-              </div>
-              <img src="http://placehold.it/400x200" alt="" class="img-responsive"/> </div>
-            </a> </div>
-          <!--end item-->
-          
-          <div class="col-divider-margin-3"></div>
-          <div class="feature-box-81 bmargin"> <a href="#">
-            <div class="image-holder">
-              <div class="hover-strip">
-                <h4 class="text-white nopadding roboto-slab font-weight-3">Open Days<span class="pull-right"><i class="fa fa-angle-double-right"></i></span></h4>
-              </div>
-              <img src="http://placehold.it/400x200" alt="" class="img-responsive"/> </div>
-            </a> </div>
-          <!--end item--> 
-          
+        <div class="col-md-3 col-sm-6 bmargin text-center">
+          <h1 class="text-white"><span class="icon-hotairballoon"></span></h1>
+          <h1 class="text-pink-3"><strong>100%</strong></h1>
+          <div class="divider-line solid align-center less-width-6 margin light"></div>
+          <h3 class="paddtop1 roboto-slab">Campus Jobs</span> </h3>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. </p>
+        </div>
+        <!--end item-->
+        
+        <div class="col-md-3 col-sm-6 bmargin text-center">
+          <h1 class="text-white"><span class="icon-hotairballoon"></span></h1>
+          <h1 class="text-pink-3"><strong>86%</strong></h1>
+          <div class="divider-line solid align-center less-width-6 margin light"></div>
+          <h3 class="paddtop1 roboto-slab">Awards</span> </h3>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. </p>
         </div>
         <!--end item--> 
         
       </div>
     </div>
   </section>
-  <!-- end section -->
+  <!--end section-->
+  <div class="clearfix"></div>
+
+  <section class="section-pink-3 section-less-padding"></section>
   <div class="clearfix"></div>
   
   <section class="parallax-section57">
@@ -396,307 +375,13 @@
   <!--end section-->
   <div class="clearfix"></div>
   
-  <section class="sec-padding">
-    <div class="container">
-      <div class="row slide-controls-color-8">
-        <div class="col-md-6">
-          <h3 class=" roboto-slab uppercase less-mar3">Latest News</h3>
-          <div class="title-line-9 less-margin align-center"></div>
-          <div class="clearfix"></div>
-          <br/>
-          <div id="owl-demo3" class="owl-carousel">
-            <div class="item">
-              <div class="feature-box-82 bmargin">
-                <div class="col-md-6 nopadding"> <a href="#">
-                  <div class="image-holder">
-                    <div class="post-info">
-                      <div class="post-infoicon"><i class="fa fa-heart"></i> 5</div>
-                      <div class="post-infoicon"><i class="fa fa-comment"></i> 20</div>
-                      <div class="post-infoicon"><i class="fa fa-share"></i> Share</div>
-                    </div>
-                    <img src="http://placehold.it/1000x1000" alt="" class="img-responsive"/> </div>
-                  </a> </div>
-                <div class="col-md-6">
-                  <div class="text-box padding-3">
-                    <h5 class="uppercase roboto-slab font-weight-4"><a href="#">Science Blog</a></h5>
-                    <div class="blog-post-info"> <span><i class="fa fa-user"></i> By Benjamin</span> <span><i class="fa fa-comments-o"></i> 15</span> </div>
-                    <br/>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis.</p>
-                  </div>
-                </div>
-              </div>
-              <!--end item-->
-              <div class="col-divider-margin-3"></div>
-              <div class="feature-box-82 active bmargin">
-                <div class="col-md-6 nopadding"> <a href="#">
-                  <div class="image-holder">
-                    <div class="post-info">
-                      <div class="post-infoicon"><i class="fa fa-heart"></i> 5</div>
-                      <div class="post-infoicon"><i class="fa fa-comment"></i> 20</div>
-                      <div class="post-infoicon"><i class="fa fa-share"></i> Share</div>
-                    </div>
-                    <img src="http://placehold.it/1000x1000" alt="" class="img-responsive"/> </div>
-                  </a> </div>
-                <div class="col-md-6">
-                  <div class="text-box padding-3">
-                    <h5 class="uppercase roboto-slab font-weight-4"><a href="#">Library</a></h5>
-                    <div class="blog-post-info"> <span><i class="fa fa-user"></i> By Benjamin</span> <span><i class="fa fa-comments-o"></i> 15</span> </div>
-                    <br/>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis.</p>
-                  </div>
-                </div>
-              </div>
-              <!--end item--> 
-              
-            </div>
-            <!--end slide item-->
-            
-            <div class="item">
-              <div class="feature-box-82 bmargin">
-                <div class="col-md-6 nopadding"> <a href="#">
-                  <div class="image-holder">
-                    <div class="post-info">
-                      <div class="post-infoicon"><i class="fa fa-heart"></i> 5</div>
-                      <div class="post-infoicon"><i class="fa fa-comment"></i> 20</div>
-                      <div class="post-infoicon"><i class="fa fa-share"></i> Share</div>
-                    </div>
-                    <img src="http://placehold.it/1000x1000" alt="" class="img-responsive"/> </div>
-                  </a> </div>
-                <div class="col-md-6">
-                  <div class="text-box padding-3">
-                    <h5 class="uppercase roboto-slab font-weight-4"><a href="#">Science Blog</a></h5>
-                    <div class="blog-post-info"> <span><i class="fa fa-user"></i> By Benjamin</span> <span><i class="fa fa-comments-o"></i> 15</span> </div>
-                    <br/>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis.</p>
-                  </div>
-                </div>
-              </div>
-              <!--end item-->
-              
-              <div class="feature-box-82 active bmargin">
-                <div class="col-md-6 nopadding"> <a href="#">
-                  <div class="image-holder">
-                    <div class="post-info">
-                      <div class="post-infoicon"><i class="fa fa-heart"></i> 5</div>
-                      <div class="post-infoicon"><i class="fa fa-comment"></i> 20</div>
-                      <div class="post-infoicon"><i class="fa fa-share"></i> Share</div>
-                    </div>
-                    <img src="http://placehold.it/1000x1000" alt="" class="img-responsive"/> </div>
-                  </a> </div>
-                <div class="col-md-6">
-                  <div class="text-box padding-3">
-                    <h5 class="uppercase roboto-slab font-weight-4"><a href="#">Library</a></h5>
-                    <div class="blog-post-info"> <span><i class="fa fa-user"></i> By Benjamin</span> <span><i class="fa fa-comments-o"></i> 15</span> </div>
-                    <br/>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis.</p>
-                  </div>
-                </div>
-                <div class="clearfix"></div>
-              </div>
-              <!--end item--> 
-              
-            </div>
-            <!--end slide item--> 
-            
-          </div>
-          <!--end carousel--> 
-          
-        </div>
-        <!--end item-->
-        
-        <div class="col-md-6">
-          <h3 class=" roboto-slab uppercase less-mar3">Latest Events</h3>
-          <div class="title-line-9 less-margin align-center"></div>
-          <div class="clearfix"></div>
-          <br/>
-          <div id="owl-demo2" class="owl-carousel">
-            <div class="item">
-              <h4 class="uppercase oswald font-weight-3 text-pink-3">Monday, March 16</h4>
-              <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit Suspendisse et justo Praesent mattis commodo augue Aliquam ornare hendrerit augue. Suspendisse et justo Praesent mattis commodo augue Aliquam ornare.</p>
-              <br/>
-              <div class="divider-line solid light opacity-7"></div>
-              <br/>
-              <h4 class="uppercase oswald font-weight-3 text-pink-3">Tuesday, March 16</h4>
-              <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit Suspendisse et justo Praesent mattis commodo augue Aliquam ornare hendrerit augue. Suspendisse et justo Praesent mattis commodo augue Aliquam ornare.</p>
-              <br/>
-              <div class="divider-line solid light opacity-7"></div>
-              <br/>
-              <h4 class="uppercase oswald font-weight-3 text-pink-3">Wednesday, March 16</h4>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit augue.</p>
-              <br/>
-              <div class="divider-line solid light opacity-7"></div>
-              <br/>
-              <h4 class="uppercase oswald font-weight-3 text-pink-3">Thursday, March 16</h4>
-              <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit Suspendisse et justo Praesent mattis commodo augue Aliquam ornare hendrerit augue. Suspendisse et justo Praesent mattis commodo augue Aliquam ornare.</p>
-              <br/>
-            </div>
-            <!--end slide item-->
-            
-            <div class="item">
-              <h4 class="uppercase oswald font-weight-3 text-pink-3">Monday, March 16</h4>
-              <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit Suspendisse et justo Praesent mattis commodo augue Aliquam ornare hendrerit augue. Suspendisse et justo Praesent mattis commodo augue Aliquam ornare.</p>
-              <br/>
-              <div class="divider-line solid light opacity-7"></div>
-              <br/>
-              <h4 class="uppercase oswald font-weight-3 text-pink-3">Tuesday, March 16</h4>
-              <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit Suspendisse et justo Praesent mattis commodo augue Aliquam ornare hendrerit augue. Suspendisse et justo Praesent mattis commodo augue Aliquam ornare.</p>
-              <br/>
-              <div class="divider-line solid light opacity-7"></div>
-              <br/>
-              <h4 class="uppercase oswald font-weight-3 text-pink-3">Wednesday, March 16</h4>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit augue.</p>
-              <br/>
-              <div class="divider-line solid light opacity-7"></div>
-              <br/>
-              <h4 class="uppercase oswald font-weight-3 text-pink-3">Thursday, March 16</h4>
-              <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit Suspendisse et justo Praesent mattis commodo augue Aliquam ornare hendrerit augue. Suspendisse et justo Praesent mattis commodo augue Aliquam ornare.</p>
-              <br/>
-            </div>
-            <!--end slide item--> 
-          </div>
-          <!--end carousel--> 
-        </div>
-        <!--end item--> 
-      </div>
-    </div>
-  </section>
-  <!-- end section -->
-  <div class="clearfix"></div>
   
-  <section class="parallax-section58">
-    <div class="section-overlay bg-opacity-7">
-      <div class="container sec-tpadding-3 sec-bpadding-3">
-        <div class="row">
-          <div class="col-md-8 col-centered">
-            <h1 class="raleway text-white parallax-section-title uppercase">Studying at hasta</h1>
-            <br/>
-            <p class="text-white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit <span class="text-pink-3">Suspendisse et justo Praesent</span> mattis commodo augue Aliquam ornare hendrerit augue Cras tellus In pulvinar lectus a est Curabitur eget orci Cras laoreet ligula Etiam sit amet dolor Vestibulum  consectetuer adipiscing elit.</p>
-            <br/>
-            <a class="btn btn-pink-3 btn-round" href="#">Read more</a> <br/>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--end section-->
-  <div class="clearfix"></div>
-  
-  <section class="sec-padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 col-sm-6 clearfix">
-          <div class="item-holder">
-            <h4 class=" roboto-slab uppercase less-mar3">Why Choose</h4>
-            <div class="title-line-9 less-margin align-center"></div>
-            <br/>
-            <br/>
-            <h5 class="uppercase oswald font-weight-3 text-pink-3">Research and teaching</h5>
-            <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit Suspendisse et justo Praesent mattis.</p>
-            <br/>
-            <div class="divider-line solid light opacity-7"></div>
-            <br/>
-            <h5 class="uppercase oswald font-weight-3 text-pink-3">Careers & Offers</h5>
-            <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit Suspendisse et justo Praesent mattis.</p>
-            <br/>
-            <a class="read-more pink-3" href="#">Read More <i class="fa fa-angle-double-right"></i></a></div>
-        </div>
-        <!--end item-->
-        
-        <div class="col-md-4 col-sm-6 clearfix">
-          <div class="item-holder">
-            <h4 class=" roboto-slab uppercase less-mar3">Event Gallery</h4>
-            <div class="title-line-9 less-margin align-center"></div>
-            <br/>
-            <br/>
-            <div id="owl-demo4" class="owl-carousel">
-              <div class="item">
-                <div class="feature-box24 bmargin">
-                  <div class="inner"> <br/>
-                    <br/>
-                    <h4 class="text-white uppercase oswald font-weight-3">Vivamus et justo in nunc </h4>
-                    <p class="text-white">Lorem ipsum dolor sit amet consectetuer adipiscing elit Suspendisse et justo.</p>
-                    <br/>
-                  </div>
-                  <div class="image-holder">
-                    <div class="overlay"></div>
-                    <img src="http://placehold.it/450x350" alt="" class="img-responsive"/> </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="feature-box24 bmargin">
-                  <div class="inner"> <br/>
-                    <br/>
-                    <h4 class="text-white uppercase oswald font-weight-3">Vivamus et justo in nunc </h4>
-                    <p class="text-white">Lorem ipsum dolor sit amet consectetuer adipiscing elit Suspendisse et justo.</p>
-                    <br/>
-                  </div>
-                  <div class="image-holder">
-                    <div class="overlay"></div>
-                    <img src="http://placehold.it/450x350" alt="" class="img-responsive"/> </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="feature-box24 bmargin">
-                  <div class="inner"> <br/>
-                    <br/>
-                    <h4 class="text-white uppercase oswald font-weight-3">Vivamus et justo in nunc </h4>
-                    <p class="text-white">Lorem ipsum dolor sit amet consectetuer adipiscing elit Suspendisse et justo.</p>
-                    <br/>
-                  </div>
-                  <div class="image-holder">
-                    <div class="overlay"></div>
-                    <img src="http://placehold.it/450x350" alt="" class="img-responsive"/> </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 last">
-          <h4 class=" roboto-slab uppercase less-mar3">Features</h4>
-          <div class="title-line-9 less-margin align-center"></div>
-          <br/>
-          <br/>
-          <div class="item-holder">
-            <div class="accordion_holder">
-              <div class="accordion_example1"> 
-                
-                <!-- Section 1 -->
-                <div class="accordion_in two st3 acc_active">
-                  <div class="acc_head">student learning opportunities</div>
-                  <div class="acc_content"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit augue. Cras tellus. In pulvinar lectus a est. Curabitur eget orci. </div>
-                </div>
-                
-                <!-- Section 2 -->
-                <div class="accordion_in two st3">
-                  <div class="acc_head">Student storys</div>
-                  <div class="acc_content"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit augue. Cras tellus. In pulvinar lectus a est. Curabitur eget orci. Cras laoreet ligula. Etiam sit amet dolor. </div>
-                </div>
-                
-                <!-- Section 3 -->
-                <div class="accordion_in two st3">
-                  <div class="acc_head">New courses</div>
-                  <div class="acc_content"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit augue. Cras tellus. In pulvinar lectus a est. Curabitur eget orci. Cras laoreet ligula. Etiam sit amet dolor. </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Accordion end --> 
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--end section-->
-  <div class="clearfix"></div>
   
   <section class="section-pink-3 section-less-padding">
     <div class="container">
       <div class="row">
         <div class="col-md-7 col-centered text-center">
-          <h3 class="less-mar3 roboto-slab text-white text-center font-weight-3">Get Many More Features With Hasta</h3>
-          <br/>
-          <p class="text-white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit augue. Cras tellus.</p>
-          <br/>
-          <a class="btn btn-border white btn-large" href="#">Purchase now</a> </div>
+          
       </div>
     </div>
   </section>
@@ -723,34 +408,27 @@
         <!--end item-->
         
         <div class="col-md-3 clearfix">
-          <!-- <div class="item-holder">
-            <h4 class="uppercase footer-title less-mar3 roboto-slab font-weight-3">Recent Posts</h4>
-            <div class="footer-title-bottomstrip"></div>
-            <div class="clearfix"></div>
-            <div class="image-left"><img src="http://placehold.it/80x80" alt=""/></div>
-            <div class="text-box-right">
-              <h6 class="text-white less-mar3 nopadding roboto-slab font-weight-3 nopadding"><a href="#">Clean And Modern</a></h6>
-              <p>Lorem ipsum dolor sit</p>
-              <div class="footer-post-info"> <span>By John Doe</span><span> May 20</span> </div>
-            </div>
-            <div class="divider-line solid dark margin opacity-6"></div>
-            <div class="clearfix"></div>
-            <div class="image-left"><img src="http://placehold.it/80x80" alt=""/></div>
-            <div class="text-box-right">
-              <h6 class="text-white less-mar3 roboto-slab font-weight-3 nopadding"><a href="#">Layered PSD Files</a></h6>
-              <p>Lorem ipsum dolor sit</p>
-              <div class="footer-post-info"> <span>By John Doe</span><span> May 20</span> </div>
-            </div>
-          </div> -->
-        </div>
-        <!--end item-->
-        
-        <div class="col-md-3 clearfix">
-          <h4 class="uppercase footer-title less-mar3 roboto-slab font-weight-3">quick links</h4>
+        <h4 class="uppercase footer-title less-mar3 roboto-slab font-weight-3">Information About</h4>
           <div class="clearfix"></div>
           <div class="footer-title-bottomstrip"></div>
           <ul class="usefull-links no-border">
             <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
+            <li><a href="#"><i class="fa fa-angle-right"></i> Ullamcorper odio nec turpis</a></li>
+            <li><a href="#"><i class="fa fa-angle-right"></i> Aliquam porttitor vestibulum ipsum</a></li>
+            <li><a href="#"><i class="fa fa-angle-right"></i> Lobortis enim nec nisi</a></li>
+            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
+            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
+            <li><a href="#"><i class="fa fa-angle-right"></i> Ullamcorper odio nec turpis</a></li>
+          </ul>
+        </div>
+        <!--end item-->
+        
+        <div class="col-md-3 clearfix">
+          <h4 class="uppercase footer-title less-mar3 roboto-slab font-weight-3">การศึกษา</h4>
+          <div class="clearfix"></div>
+          <div class="footer-title-bottomstrip"></div>
+          <ul class="usefull-links no-border">
+            <li><a href="#"><i class="fa fa-angle-right"></i> หลักสูตรที่เปิดสอน</a></li>
             <li><a href="#"><i class="fa fa-angle-right"></i> Ullamcorper odio nec turpis</a></li>
             <li><a href="#"><i class="fa fa-angle-right"></i> Aliquam porttitor vestibulum ipsum</a></li>
             <li><a href="#"><i class="fa fa-angle-right"></i> Lobortis enim nec nisi</a></li>

@@ -24,7 +24,7 @@
 <!-- Google fonts - witch you want to use - (rest you can just remove) -->
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
+<link href='https://fonts.googleapis.com/css?family=Chakra+Petch:400,100,300,700' rel='stylesheet' type='text/css'>
 <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
@@ -46,7 +46,24 @@
 
 <!-- Remove the below comments to use your color option -->
 <link rel="stylesheet" href="css/colors/main.css" />
-
+<style>
+  h1 {
+    font-family: Chakra Petch, sans-serif;
+    font-weight: bold;
+    padding-top: 30px;
+  }
+  li {
+    font-family: Chakra Petch, sans-serif;
+    font-size: 22px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  p {
+    font-family: Chakra Petch, sans-serif;
+    font-size: 22px;
+    padding-left: 40px;
+  }
+</style>
 </head>
 
 <body>
@@ -62,7 +79,8 @@
             <li><a href="/index" class="dropdown-toggle">หน้าแรก</a></li>
             <li class="dropdown"><a href="/about" class="dropdown-toggle active">เกี่ยวกับเรา</a>
             <ul class="dropdown-menu five" role="menu">
-              <li><a href="/vision" class="dropdown-toggle">วิสัยทัศน์</a></li>
+              <li><a href="/history" class="dropdown-toggle">ประวัติหลักสูตร</a></li>
+              <li><a href="/vision" class="dropdown-toggle">วิสัยทัศน์</a></li>  
               </ul>
             </li>
             <li><a href="/gallery" class="dropdown-toggle">ภาพ</a></li>
@@ -88,33 +106,54 @@
     <div class="container">
   <h1>สีประจำหลักสูตร</h1>
   <p>สีชมพู</p>
+  <div class="divider-line solid light opacity-7 "></div>
   <h1>โลโก้ประจำหลักสูตร</h1>
   <p></p>
+  <div class="divider-line solid light opacity-7 "></div>
   <h1>ทุนต่างๆ</h1>
   <p></p>
-  
+  <div class="divider-line solid light opacity-7 "></div>
   <h1>หนังสือ/ตำรา</h1>
   <p></p>
+  <div class="divider-line solid light opacity-7 "></div>
   <h1>ผลงานตีพิมพ์</h1>
-  <p>1. อาจารย์ ดร.ศิริลักษณ์ หล่อพันธ์มณี<br />
-Siriluck Lorpunmanee. (2017). Dynamic Resources Selection for Distributed Visualization Pipeline Formation on Grid Environments. Advanced Information Sciences and Service Sciences (AISS). 9(3): 16-23</p>
-<p>&nbsp;</p>
-<p>2. ผู้ช่วยศาสตราจารย์ ดร.วิชชา ฉิมพลีประภัสสร วงษ์ดี, เสกสรร แย้มพินิจ, โสพล มีเจริญ และวิชชา ฉิมพลี. (2560). การวิเคราะห์หาประสิทธิผลรูปแบบการเรียนรู้เพื่อพัฒนาความสามารถด้านการวิจัยของนักศึกษาครูช่างอุตสาหกรรม (Analysis of Learning Effectiveness to Enhance Research Ability of Pre-service Teachers in Industrial Technology Education). วิจัยและพัฒนา มจธ. 39(4): 597-614.<br />
-Witcha Chimphlee. (2016). RI-MFART: An Intrusion Detection System based on Combining Rule Induction Analysis and Modified Fuzzy ART Clustering. Advances in Information Sciences and Services Sciences (AISS). 8(2): 9-23.<br />
-Surasit Songma, Witcha Chimphlee, Kiattisak Maichalernnukul and Parinya Sanguansat. (2013). Intrusion Detection through Rule Induction Analysis. Advances in Information Sciences and Service Sciences (AISS). 5(11): 187-194.<br />
-Surasit Songma, Witcha Chimphlee, Kiattisak Maichalernnukul and Parinya Sanguansat. (2012). Implementation of Fuzzy c-Means and Outlier Detection for Intrusion Detection with KDD Cup 1999 Data Set. International Journal of Engineering Research and Development. 2(2): 44-48.</p>
-<p>&nbsp;</p>
-<p>3. ผู้ช่วยศาสตราจารย์ ดร.ศิริพร ฉิมพลี<br />
-Thanakorn Pamutha, Siriporn Chimphlee, Chom Kimpan and Parinya Sanguansat. (2014). Web Page Access Prediction on Server Side. Journal of Convergence Information Technology (JCIT). 9(5): 81-91.<br />
-Thanakorn Pamutha, Siriporn Chimphlee, Chom Kimpan and Parinya Sanguansat. (2013).<br />
-Effective Sequence Representation in Predicting Web Page Accessibility.<br />
-Advances in Information Sciences and Service Sciences (AISS). 5(12): 168-179.</p>
-<p>Thanakorn Pamutha, Chom Kimpan, Siriporn Chimplee and Parinya Sanguansat. (2012). Improving Web Page Prediction Using Default Rule Selection. International Journal of Advanced Computer Science and Applications (IJACSA). 3(11): 159-164.</p>
-<p>&nbsp;</p>
-<p>4. อาจารย์ ณรงค์ฤทธิ์ ภิรมย์นก<br />
-Narongrit Piromnok. (2016). Problem-based Teaching to Promote Skill in Communication and use of Information Technology by Students Majoring in Information Technology. ASEAN Journal of Education. 2(1): 23-32.</p>
-<p>5. ผู้ช่วยศาสตราจารย์ วัชรากรณ์ เนตรหาญ<br />
-วัชรากรณ์ เนตรหาญ. (2559). การเปรียบเทียบประสิทธิภาพของโปรโตคอลที่ใช้ในดาวเทียมบริดแบนด์ไฮบริด. วารสารวิจัย มสด สาขาวิทยาศาสตร์และเทคโนโลยี. 9(3): 63-80.</p>
+  <ol>
+  <li>อาจารย์ ดร.ศิริลักษณ์ หล่อพันธ์มณี
+    <ul>
+      <li>
+          Siriluck Lorpunmanee. (2017). Dynamic Resources Selection for Distributed Visualization Pipeline Formation on Grid Environments. Advanced Information Sciences and Service Sciences (AISS). 9(3): 16-23
+      </li>
+    </ul>
+  </li>
+<li>ผู้ช่วยศาสตราจารย์ ดร.วิชชา ฉิมพลี
+  <ul>
+    <li>
+      ประภัสสร วงษ์ดี, เสกสรร แย้มพินิจ, โสพล มีเจริญ และวิชชา ฉิมพลี. (2560). การวิเคราะห์หาประสิทธิผลรูปแบบการเรียนรู้เพื่อพัฒนาความสามารถด้านการวิจัยของนักศึกษาครูช่างอุตสาหกรรม (Analysis of Learning Effectiveness to Enhance Research Ability of Pre-service Teachers in Industrial Technology Education). วิจัยและพัฒนา มจธ. 39(4): 597-614.
+    </li>
+    <li>Witcha Chimphlee. (2016). RI-MFART: An Intrusion Detection System based on Combining Rule Induction Analysis and Modified Fuzzy ART Clustering. Advances in Information Sciences and Services Sciences (AISS). 8(2): 9-23.</li>
+    <li>Surasit Songma, Witcha Chimphlee, Kiattisak Maichalernnukul and Parinya Sanguansat. (2013). Intrusion Detection through Rule Induction Analysis. Advances in Information Sciences and Service Sciences (AISS). 5(11): 187-194.</li>
+    <li>Surasit Songma, Witcha Chimphlee, Kiattisak Maichalernnukul and Parinya Sanguansat. (2012). Implementation of Fuzzy c-Means and Outlier Detection for Intrusion Detection with KDD Cup 1999 Data Set. International Journal of Engineering Research and Development. 2(2): 44-48.</li>
+</ul>
+<li>ผู้ช่วยศาสตราจารย์ ดร.ศิริพร ฉิมพลี
+  <ul>
+      <li>
+        Thanakorn Pamutha, Siriporn Chimphlee, Chom Kimpan and Parinya Sanguansat. (2014). Web Page Access Prediction on Server Side. Journal of Convergence Information Technology (JCIT). 9(5): 81-91.
+      </li>
+<li>Thanakorn Pamutha, Siriporn Chimphlee, Chom Kimpan and Parinya Sanguansat. (2013).</li>
+<li>Effective Sequence Representation in Predicting Web Page Accessibility.</li>
+<li>Advances in Information Sciences and Service Sciences (AISS). 5(12): 168-179.</li>
+<li>Thanakorn Pamutha, Chom Kimpan, Siriporn Chimplee and Parinya Sanguansat. (2012). Improving Web Page Prediction Using Default Rule Selection. International Journal of Advanced Computer Science and Applications (IJACSA). 3(11): 159-164.</li>
+</ul>
+<li>อาจารย์ ณรงค์ฤทธิ์ ภิรมย์นก
+  <ul>
+  <li>Narongrit Piromnok. (2016). Problem-based Teaching to Promote Skill in Communication and use of Information Technology by Students Majoring in Information Technology. ASEAN Journal of Education. 2(1): 23-32.</li>
+</ul>
+<li>ผู้ช่วยศาสตราจารย์ วัชรากรณ์ เนตรหาญ
+  <ul><li>
+วัชรากรณ์ เนตรหาญ. (2559). การเปรียบเทียบประสิทธิภาพของโปรโตคอลที่ใช้ในดาวเทียมบริดแบนด์ไฮบริด. วารสารวิจัย มสด สาขาวิทยาศาสตร์และเทคโนโลยี. 9(3): 63-80.
+</li></ul>
+</ol>
+<div class="divider-line solid light opacity-7 "></div>
   <h1>หัวข้องานวิจัย / RESEARCH AREAS</h1>
   <p>Artificial Intelligence and Intelligent Systems</p>
   <p>นักวิจัยวิจัย</p>
@@ -122,172 +161,29 @@ Narongrit Piromnok. (2016). Problem-based Teaching to Promote Skill in Communica
   <p>Data Mining and Information Retrieval</p>
   <p>นักวิจัยวิจัย</p>
   <p>ผศ.ดร.ศิริพร ฉิมพลี</p>
+  <div class="divider-line solid light opacity-7 "></div>
   <h1>อบรมต่างๆ</h1>
   <p></p>
+  <div class="divider-line solid light opacity-7 "></div>
   <h1>ผลงานนักศึกษา</h1>
-  <p></p>
-  
+  <ul>
+    <li>Chadin Chaipornpisuth</li>
+    <ol>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+    </ol>
+    <li>Chadin Chaipornpisuth</li>
+    <li>Chadin Chaipornpisuth</li>
+    <li>Chadin Chaipornpisuth</li>
+    <li>Chadin Chaipornpisuth</li>
+  <ul>
+  <div class="divider-line solid light opacity-7 "></div>
 
   </div>
   </section>
-  <section>
-    <div class="container">
-      <div class="divider-line solid light opacity-7 "></div>
-      <div class="row "> <br/>
-        <br/>
-        <div class="col-md-9 col-centered text-center">
-          <h4 class="text-pink-3 roboto-slab font-weight-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit augue. Cras tellus. In pulvinar lectus a est. Curabitur eget orci.</h4>
-          <br/>
-          <br/>
-        </div>
-      </div>
-    </div>
-  </section>
-  <div class="clearfix"></div>
-  <!-- end section -->
-  
-  <section>
-    <div class="container">
-      <div class="divider-line solid light opacity-7 "></div>
-      <div class="row sec-bpadding-2">
-        <div class="col-md-3 col-sm-6 bmargin text-center">
-          <h1 class="text-white"><span class="icon-hotairballoon"></span></h1>
-          <h1 class="text-pink-3"><strong>96%</strong></h1>
-          <div class="divider-line solid align-center less-width-6 margin light"></div>
-          <h3 class="paddtop1 roboto-slab">Success Rate</span> </h3>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. </p>
-        </div>
-        <!--end item-->
-        
-        <div class="col-md-3 col-sm-6 bmargin text-center">
-          <h1 class="text-white"><span class="icon-hotairballoon"></span></h1>
-          <h1 class="text-pink-3"><strong>92%</strong></h1>
-          <div class="divider-line solid align-center less-width-6 margin light"></div>
-          <h3 class="paddtop1 roboto-slab">Happy Students</span> </h3>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. </p>
-        </div>
-        <!--end item-->
-        
-        <div class="col-md-3 col-sm-6 bmargin text-center">
-          <h1 class="text-white"><span class="icon-hotairballoon"></span></h1>
-          <h1 class="text-pink-3"><strong>100%</strong></h1>
-          <div class="divider-line solid align-center less-width-6 margin light"></div>
-          <h3 class="paddtop1 roboto-slab">Campus Jobs</span> </h3>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. </p>
-        </div>
-        <!--end item-->
-        
-        <div class="col-md-3 col-sm-6 bmargin text-center">
-          <h1 class="text-white"><span class="icon-hotairballoon"></span></h1>
-          <h1 class="text-pink-3"><strong>86%</strong></h1>
-          <div class="divider-line solid align-center less-width-6 margin light"></div>
-          <h3 class="paddtop1 roboto-slab">Awards</span> </h3>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. </p>
-        </div>
-        <!--end item--> 
-        
-      </div>
-    </div>
-  </section>
-  <!--end section-->
-  <div class="clearfix"></div>
-  
-  <section class="section-pink-3 section-less-padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-7 col-centered text-center">
-          <h3 class="less-mar3 roboto-slab text-white text-center font-weight-3">Get Many More Features With Hasta</h3>
-          <br/>
-          <p class="text-white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit augue. Cras tellus.</p>
-          <br/>
-          <a class="btn btn-border white btn-large" href="#">Purchase now</a> </div>
-      </div>
-    </div>
-  </section>
-  <!--end section-->
-  <div class="clearfix"></div>
-  
-  <section class="section-fulldark sec-padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3 clearfix">
-          <h4 class="uppercase footer-title less-mar3 roboto-slab font-weight-3">Information About</h4>
-          <div class="clearfix"></div>
-          <div class="footer-title-bottomstrip"></div>
-          <ul class="usefull-links no-border">
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Ullamcorper odio nec turpis</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Aliquam porttitor vestibulum ipsum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Lobortis enim nec nisi</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Ullamcorper odio nec turpis</a></li>
-          </ul>
-        </div>
-        <!--end item-->
-        
-        <div class="col-md-3 clearfix">
-          <div class="item-holder">
-            <h4 class="uppercase footer-title less-mar3 roboto-slab font-weight-3">Recent Posts</h4>
-            <div class="footer-title-bottomstrip"></div>
-            <div class="clearfix"></div>
-            <div class="image-left"><img src="http://placehold.it/80x80" alt=""/></div>
-            <div class="text-box-right">
-              <h6 class="text-white less-mar3 nopadding roboto-slab font-weight-3 nopadding"><a href="#">Clean And Modern</a></h6>
-              <p>Lorem ipsum dolor sit</p>
-              <div class="footer-post-info"> <span>By John Doe</span><span> May 20</span> </div>
-            </div>
-            <div class="divider-line solid dark margin opacity-6"></div>
-            <div class="clearfix"></div>
-            <div class="image-left"><img src="http://placehold.it/80x80" alt=""/></div>
-            <div class="text-box-right">
-              <h6 class="text-white less-mar3 roboto-slab font-weight-3 nopadding"><a href="#">Layered PSD Files</a></h6>
-              <p>Lorem ipsum dolor sit</p>
-              <div class="footer-post-info"> <span>By John Doe</span><span> May 20</span> </div>
-            </div>
-          </div>
-        </div>
-        <!--end item-->
-        
-        <div class="col-md-3 clearfix">
-          <h4 class="uppercase footer-title less-mar3 roboto-slab font-weight-3">quick links</h4>
-          <div class="clearfix"></div>
-          <div class="footer-title-bottomstrip"></div>
-          <ul class="usefull-links no-border">
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Ullamcorper odio nec turpis</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Aliquam porttitor vestibulum ipsum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Lobortis enim nec nisi</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Ullamcorper odio nec turpis</a></li>
-          </ul>
-        </div>
-        <!--end item-->
-        
-        <div class="col-md-3 clearfix">
-          <h4 class="uppercase footer-title less-mar3 roboto-slab font-weight-3">quick links</h4>
-          <div class="clearfix"></div>
-          <div class="footer-title-bottomstrip"></div>
-          <ul class="usefull-links no-border">
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Ullamcorper odio nec turpis</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Aliquam porttitor vestibulum ipsum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Lobortis enim nec nisi</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Ullamcorper odio nec turpis</a></li>
-          </ul>
-        </div>
-        <!--end item--> 
-        
-        <!--end item--> 
-        
-      </div>
-    </div>
-  </section>
-  <!--end section-->
-  <div class="clearfix"></div>
+
   
   <section class="section-copyrights sec-moreless-padding">
     <div class="container">

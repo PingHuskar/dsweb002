@@ -24,7 +24,7 @@
 <!-- Google fonts - witch you want to use - (rest you can just remove) -->
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
+<link href='https://fonts.googleapis.com/css?family=Chakra+Petch:400,100,300,700' rel='stylesheet' type='text/css'>
 <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
@@ -49,7 +49,13 @@
 
 <!-- Remove the below comments to use your color option -->
 <link rel="stylesheet" href="css/colors/main.css" />
-
+<style>
+p {
+    font-family: Chakra Petch, sans-serif;
+    font-size: 18px;
+    padding-top: 10px;
+  }
+</style>
 </head>
 
 <body>
@@ -65,7 +71,8 @@
             <li><a href="/index" class="dropdown-toggle">หน้าแรก</a></li>
             <li class="dropdown"><a href="/about" class="dropdown-toggle">เกี่ยวกับเรา</a>
             <ul class="dropdown-menu five" role="menu">
-              <li><a href="/vision" class="dropdown-toggle">วิสัยทัศน์</a></li>
+              <li><a href="/history" class="dropdown-toggle">ประวัติหลักสูตร</a></li>
+              <li><a href="/vision" class="dropdown-toggle">วิสัยทัศน์</a></li>  
               </ul>
             </li>
             <li><a href="/gallery" class="dropdown-toggle">ภาพ</a></li>
@@ -93,127 +100,27 @@
         <div class="col-md-8">
           <div class="smart-forms bmargin">
             <!-- <h3 class=" roboto-slab">Contact Us</h3> -->
-            <figure><iframe loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.0414318632215!2d100.50875186556769!3d13.776375040331532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2995e93467e4d%3A0x5feff31367bdbe1d!2z4Lih4Lir4Liy4Lin4Li04LiX4Lii4Liy4Lil4Lix4Lii4Liq4Lin4LiZ4LiU4Li44Liq4Li04LiV!5e0!3m2!1sth!2sth!4v1588822942882!5m2!1sth!2sth" allowfullscreen="" width="700" height="500"></iframe></figure>
+            <figure><iframe loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.0414318632215!2d100.50875186556769!3d13.776375040331532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2995e93467e4d%3A0x5feff31367bdbe1d!2z4Lih4Lir4Liy4Lin4Li04LiX4Lii4Liy4Lil4Lix4Lii4Liq4Lin4LiZ4LiU4Li44Liq4Li04LiV!5e0!3m2!1sth!2sth!4v1588822942882!5m2!1sth!2sth" allowfullscreen="" width="700" height="468"></iframe></figure>
           </div>          
         </div>
-        <div class="col-md-4 bmargin">
-          <h3 class="roboto-slab">Address Info</h3>
+        <div class="col-md-4 bmargin" style="font-family: Chakra Petch, sans-serif;">
+          <h3>Address Info</h3>
 
-          <h6><strong>Data Science and Analytics
-หลักสูตรวิทยาการข้อมูลและการวิเคราะห์ คณะวิทยาศาสตร์และเทคโนโลยี
-มหาวิทยาลัยสวนดุสิต</strong></h6>
-          No.28 - 63739 street lorem ipsum City, Country <br />
-          Telephone: 02-244-5692, 02-244-5693, 02-244-5694<br />
-          <br />
-          <h6><strong>พิกัด GPS</strong></h6>
-          Decimal Degree  :  13.776109, 100.509849
-          Degree Minute  :  N13°46.56654, E100°30.59094
-          Degree Minute Second  :  N13°46’33.992″, E100°30’35.456″
-          UTM  :  663223, 1523478
-          <br /><br />
-          E-mail: <a href="mailto:email@example.com">email@example.com</a><br />
-          Website: <a href="/index">http://datasci.sci.dusit.ac.th</a>
+          <p>Data Science and Analytics
+              หลักสูตรวิทยาการข้อมูลและการวิเคราะห์ คณะวิทยาศาสตร์และเทคโนโลยี
+              มหาวิทยาลัยสวนดุสิต</p>
+          <p>No.28 - 63739 street lorem ipsum City, Country</p>
+          <p>Telephone: 02-244-5692, 02-244-5693, 02-244-5694</p>
+          
+          <p>E-mail: <a href="mailto:email@example.com">email@example.com</a></p>
+          <p>Website: <a href="/index">http://datasci.sci.dusit.ac.th</a></p>
+
+          <p>Facebook: <a href="https://www.facebook.com/????/">Facebook Name</a></p>
+
           <div class="clearfix"></div>
           <br/>
           
         </div>
-      </div>
-    </div>
-  </section>
-  <!--end section-->
-  <div class="clearfix"></div>
-  
-  <section class="section-pink-3 section-less-padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-7 col-centered text-center">
-          <h3 class="less-mar3 roboto-slab text-white text-center font-weight-3"></h3>
-          <br/>
-          <p class="text-white"></p>
-          <br/>
-          <!-- <a class="btn btn-border white btn-large" href="#"></a> </div> -->
-      </div>
-    </div>
-  </section>
-  <!--end section-->
-  <div class="clearfix"></div>
-  
-  <section class="section-fulldark sec-padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3 clearfix">
-          <h4 class="uppercase footer-title less-mar3 roboto-slab font-weight-3">Information About</h4>
-          <div class="clearfix"></div>
-          <div class="footer-title-bottomstrip"></div>
-          <ul class="usefull-links no-border">
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Ullamcorper odio nec turpis</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Aliquam porttitor vestibulum ipsum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Lobortis enim nec nisi</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Ullamcorper odio nec turpis</a></li>
-          </ul>
-        </div>
-        <!--end item-->
-        
-        <div class="col-md-3 clearfix">
-          <div class="item-holder">
-            <h4 class="uppercase footer-title less-mar3 roboto-slab font-weight-3">Recent Posts</h4>
-            <div class="footer-title-bottomstrip"></div>
-            <div class="clearfix"></div>
-            <div class="image-left"><img src="http://placehold.it/80x80" alt=""/></div>
-            <div class="text-box-right">
-              <h6 class="text-white less-mar3 nopadding roboto-slab font-weight-3 nopadding"><a href="#">Clean And Modern</a></h6>
-              <p>Lorem ipsum dolor sit</p>
-              <div class="footer-post-info"> <span>By John Doe</span><span> May 20</span> </div>
-            </div>
-            <div class="divider-line solid dark margin opacity-6"></div>
-            <div class="clearfix"></div>
-            <div class="image-left"><img src="http://placehold.it/80x80" alt=""/></div>
-            <div class="text-box-right">
-              <h6 class="text-white less-mar3 roboto-slab font-weight-3 nopadding"><a href="#">Layered PSD Files</a></h6>
-              <p>Lorem ipsum dolor sit</p>
-              <div class="footer-post-info"> <span>By John Doe</span><span> May 20</span> </div>
-            </div>
-          </div>
-        </div>
-        <!--end item-->
-        
-        <div class="col-md-3 clearfix">
-          <h4 class="uppercase footer-title less-mar3 roboto-slab font-weight-3">quick links</h4>
-          <div class="clearfix"></div>
-          <div class="footer-title-bottomstrip"></div>
-          <ul class="usefull-links no-border">
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Ullamcorper odio nec turpis</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Aliquam porttitor vestibulum ipsum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Lobortis enim nec nisi</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Ullamcorper odio nec turpis</a></li>
-          </ul>
-        </div>
-        <!--end item-->
-        
-        <div class="col-md-3 clearfix">
-          <h4 class="uppercase footer-title less-mar3 roboto-slab font-weight-3">quick links</h4>
-          <div class="clearfix"></div>
-          <div class="footer-title-bottomstrip"></div>
-          <ul class="usefull-links no-border">
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Ullamcorper odio nec turpis</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Aliquam porttitor vestibulum ipsum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Lobortis enim nec nisi</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Ullamcorper odio nec turpis</a></li>
-          </ul>
-        </div>
-        <!--end item--> 
-        
-        <!--end item--> 
-        
       </div>
     </div>
   </section>

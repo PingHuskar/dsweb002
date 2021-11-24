@@ -15,7 +15,7 @@ use App\Http\Controllers\MemberController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('university.index');
 });
 
 // Route::get('/{$name}', function ($name) {
@@ -29,6 +29,10 @@ Route::get('/index', function () {
 
 Route::get('/about', function () {
     return view("university.about");
+});
+
+Route::get('/history', function () {
+    return view("university.history");
 });
 
 Route::get('/facilities', function () {

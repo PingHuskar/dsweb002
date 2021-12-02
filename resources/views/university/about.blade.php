@@ -63,6 +63,25 @@
     font-size: 22px;
     padding-left: 40px;
   }
+  * {
+    scroll-behavior: smooth;
+  }
+  #toc_container {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 85%;
+    margin-bottom: 1em;
+    padding: 20px;
+    width: auto;
+  }
+  .toc_title {
+    font-weight: 700;
+    text-align: center;
+  }
+  #toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+  }
 </style>
 </head>
 
@@ -104,19 +123,32 @@
   
   <section>
     <div class="container">
-  <h1>สีประจำหลักสูตร</h1>
+    <div id="toc_container">
+      <p class="toc_title">Contents</p>
+      <ul class="toc_list">
+        <li><a href="#color">สีประจำหลักสูตร</a>
+        <li><a href="#logo">โลโก้ประจำหลักสูตร</a>
+        <li><a href="#scholarship">ทุนต่าง ๆ</a>
+        <li><a href="#treatise">หนังสือ / ตำรา</a>
+        <li><a href="#published">ผลงานตีพิมพ์</a>
+        <li><a href="#RESEARCHAREAS">หัวข้องานวิจัย</a>
+        <li><a href="#training">อบรม</a>
+        <li><a href="#studentwork">ผลงานนักศึกษา</a>
+      </ul>
+      </div>
+  <h1 id="color">สีประจำหลักสูตร</h1>
   <p>สีชมพู</p>
   <div class="divider-line solid light opacity-7 "></div>
-  <h1>โลโก้ประจำหลักสูตร</h1>
+  <h1 id="logo">โลโก้ประจำหลักสูตร</h1>
   <p></p>
   <div class="divider-line solid light opacity-7 "></div>
-  <h1>ทุนต่างๆ</h1>
+  <h1 id="scholarship">ทุนต่าง ๆ</h1>
   <p></p>
   <div class="divider-line solid light opacity-7 "></div>
-  <h1>หนังสือ/ตำรา</h1>
+  <h1 id="treatise">หนังสือ / ตำรา</h1>
   <p></p>
   <div class="divider-line solid light opacity-7 "></div>
-  <h1>ผลงานตีพิมพ์</h1>
+  <h1 id="published">ผลงานตีพิมพ์</h1>
   <ol>
   <li>อาจารย์ ดร.ศิริลักษณ์ หล่อพันธ์มณี
     <ul>
@@ -154,7 +186,7 @@
 </li></ul>
 </ol>
 <div class="divider-line solid light opacity-7 "></div>
-  <h1>หัวข้องานวิจัย / RESEARCH AREAS</h1>
+  <h1 id="RESEARCHAREAS">หัวข้องานวิจัย</h1>
   <p>Artificial Intelligence and Intelligent Systems</p>
   <p>นักวิจัยวิจัย</p>
   <p>ดร.ศิริลักษณ์ หล่อพันธ์มณี</p>
@@ -162,17 +194,17 @@
   <p>นักวิจัยวิจัย</p>
   <p>ผศ.ดร.ศิริพร ฉิมพลี</p>
   <div class="divider-line solid light opacity-7 "></div>
-  <h1>อบรมต่างๆ</h1>
+  <h1 id="training">อบรม</h1>
   <p></p>
   <div class="divider-line solid light opacity-7 "></div>
-  <h1>ผลงานนักศึกษา</h1>
+  <h1 id="studentwork">ผลงานนักศึกษา</h1>
   <ul>
     <li>Chadin Chaipornpisuth</li>
     <ol>
-      <li>1</li>
-      <li>2</li>
-      <li>3</li>
-      <li>4</li>
+      <li><a href="#">Z</a></li>
+      <li><a href="#">X</a></li>
+      <li><a href="#">C</a></li>
+      <li><a href="#">V</a></li>
     </ol>
     <li>Chadin Chaipornpisuth</li>
     <li>Chadin Chaipornpisuth</li>

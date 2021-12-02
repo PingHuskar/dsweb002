@@ -43,6 +43,9 @@
 <link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="js/tabs/assets/css/responsive-tabs.css">
 <style>
+  * {
+    scroll-behavior: smooth;
+  }
   #toc_container {
 background: #f9f9f9 none repeat scroll 0 0;
 border: 1px solid #aaa;
@@ -116,12 +119,12 @@ list-style: outside none none !important;
       <div id="toc_container">
       <p class="toc_title">Contents</p>
       <ul class="toc_list">
-      <li><a href="#database">ฐานข้อมูลออนไลน์</a>
-      <li><a href="#ebook">หนังสืออิเล็กทรอนิกส์</a>
-      <li><a href="#onlinesys">ระบบการเรียนการสอนออนไลน์</a>
-      <li><a href="#library">ระบบกฤตภาคออนไลน์</a>
-      <li><a href="#lab">ห้องปฏิบัติการคอมพิวเตอร์</a>
-      <li><a href="#techfored">ระบบเทคโนโลยีสารสนเทศเพื่อการศึกษา</a>
+        <li><a href="#database">ฐานข้อมูลออนไลน์</a>
+        <li><a href="#ebook">หนังสืออิเล็กทรอนิกส์</a>
+        <li><a href="#onlinesys">ระบบการเรียนการสอนออนไลน์</a>
+        <li><a href="#library">ระบบกฤตภาคออนไลน์</a>
+        <li><a href="#lab">ห้องปฏิบัติการคอมพิวเตอร์</a>
+        <li><a href="#techfored">ระบบเทคโนโลยีสารสนเทศเพื่อการศึกษา</a>
       </ul>
       </div>
         <h1 id='database'>ฐานข้อมูลออนไลน์</h1>

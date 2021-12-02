@@ -97,13 +97,13 @@
           <br/>
           <a class="btn btn-pink-3 btn-round" href="#">Read more</a></div>
           
-          <div class="col-md-6 bmargin"><img src="images\axe.png" style="width: 800px; height:500px;" alt="" class="img-responsive"/></div>
+          <div class="col-md-6 bmargin"><img src="https://picsum.photos/1000/500?random=1" style="width: 800px; height:500px;" alt="" class="img-responsive"/></div>
           
         <!--end item-->
         
         <div class="clearfix"></div>
         <div class="col-divider-margin-4"></div>
-        <div class="col-md-6 bmargin"><img src="images\axe.png" style="width: 800px; height:500px;" alt="" class="img-responsive"/></div>
+        <div class="col-md-6 bmargin"><img src="https://picsum.photos/1000/500?random=2" style="width: 800px; height:500px;" alt="" class="img-responsive"/></div>
         <div class="col-md-6 bmargin">
           <h5 class="roboto-slab font-weight-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. </h5>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit augue. Cras tellus. In pulvinar lectus a est. Curabitur eget orci. Cras laoreet ligula. Etiam sit amet dolor. Vestibulum ante ipsum primis in faucibus</p>
@@ -130,7 +130,7 @@
           <br/>
           <a class="btn btn-pink-3 btn-round" href="#">Read more</a></div>
           
-          <div class="col-md-6 bmargin"><img src="images\axe.png" style="width: 800px; height:500px;" alt="" class="img-responsive"/></div>
+          <div class="col-md-6 bmargin"><img src="https://picsum.photos/1000/500?random=3" style="width: 800px; height:500px;" alt="" class="img-responsive"/></div>
           
         <!--end item--> 
         

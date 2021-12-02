@@ -143,7 +143,7 @@
     <!-- slide 1 -->
     <div class="ms-slide slide-1" data-delay="9">
       <div class="slide-pattern"></div>
-      <img src="js/masterslider/blank.gif" data-src="{{ asset('images\dark willow.png') }}" alt=""/>
+      <img src="js/masterslider/blank.gif" data-src="https://picsum.photos/1000/500?random=1" alt=""/>
       
       <!-- <h3 class="ms-layer text42"
 			style="top: 250px; left:230px;"
@@ -184,7 +184,7 @@
     <!-- slide 2 -->
     <div class="ms-slide slide-2" data-delay="9">
       <div class="slide-pattern"></div>
-      <img src="js/masterslider/blank.gif" data-src="{{ asset('images\clinkz.png') }}" alt=""/>
+      <img src="js/masterslider/blank.gif" data-src="https://picsum.photos/1000/500?random=2" alt=""/>
       
       <!-- <h3 class="ms-layer text42 text-center"
 			style="top: 220px;"
@@ -224,7 +224,7 @@
     <!-- slide 3 -->
     <div class="ms-slide slide-3" data-delay="9">
       <div class="slide-pattern"></div>
-      <img src="js/masterslider/blank.gif" data-src="{{ asset('images\luna.png') }}" alt=""/>
+      <img src="js/masterslider/blank.gif" data-src="https://picsum.photos/1000/500?random=3" alt=""/>
       
       <!-- <h3 class="ms-layer text42 text-center"
 			style="top: 220px;"
@@ -262,7 +262,7 @@
     <!-- end slide 3 -->
     <div class="ms-slide slide-2" data-delay="9">
       <div class="slide-pattern"></div>
-      <img src="js/masterslider/blank.gif" data-src="images\axe.png" alt=""/>
+      <img src="js/masterslider/blank.gif" data-src="https://picsum.photos/1000/500?random=4" alt=""/>
       </div>
     <!-- slide 3 -->
 

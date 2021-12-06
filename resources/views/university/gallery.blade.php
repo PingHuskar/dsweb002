@@ -30,6 +30,7 @@
 <![endif]-->
 
 <!-- Stylesheets -->
+<link rel="stylesheet" href="css/main.css" />
 <link rel="stylesheet" media="screen" href="js/bootstrap/bootstrap.min.css" type="text/css" />
 <link rel="stylesheet" href="js/mainmenu/menu.css" type="text/css" />
 <link rel="stylesheet" href="css/default.css" type="text/css" />
@@ -83,8 +84,129 @@
   </div>
   <!--end menu-->
   <div class="clearfix"></div>
+
+  <main>
+      <section class="home-intro">
+        <!-- <h1>Gallery</h1> -->
+      </section>
+
+      <!-- <div class="home-about">
+        <h2>About us</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        <div class="columns">
+          <div class="col fade-in">
+            <h3>Lorem, ipsum.</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae
+              maiores fuga eos provident voluptas perferendis.
+            </p>
+          </div>
+          <div class="col fade-in">
+            <h3>A, illo!</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatibus minima quo beatae eius blanditiis officiis.
+            </p>
+          </div>
+          <div class="col fade-in">
+            <h3>Repudiandae, error?</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
+              quasi quis doloribus quia illum laudantium.
+            </p>
+          </div>
+        </div>
+      </div> -->
+
+      <div class="home-more-stuff">
+        <div class="more-stuff-grid">
+          <img
+            src="https://unsplash.it/400"
+            alt=""
+            class="slide-in from-left"
+          />
+          <p class="slide-in from-right">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fugit,
+            quae beatae vero sit magni quaerat id ratione. Dolor optio unde amet
+            omnis sapiente neque cumque consequuntur reiciendis deserunt.
+            Dolorem vero exercitationem consequuntur, eligendi cupiditate
+            debitis facilis quibusdam magni. Eveniet.
+          </p>
+        </div>
+        <div class="more-stuff-grid">
+          <p class="slide-in from-left">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fugit,
+            quae beatae vero sit magni quaerat id ratione. Dolor optio unde amet
+            omnis sapiente neque cumque consequuntur reiciendis deserunt.
+            Dolorem vero exercitationem consequuntur, eligendi cupiditate
+            debitis facilis quibusdam magni. Eveniet.
+          </p>
+          <img
+            src="https://unsplash.it/401"
+            alt=""
+            class="slide-in from-right"
+          />
+        </div>
+        <div class="more-stuff-grid">
+          <img
+            src="https://unsplash.it/400"
+            alt=""
+            class="slide-in from-left"
+          />
+          <p class="slide-in from-right">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fugit,
+            quae beatae vero sit magni quaerat id ratione. Dolor optio unde amet
+            omnis sapiente neque cumque consequuntur reiciendis deserunt.
+            Dolorem vero exercitationem consequuntur, eligendi cupiditate
+            debitis facilis quibusdam magni. Eveniet.
+          </p>
+        </div>
+        <div class="more-stuff-grid">
+          <p class="slide-in from-left">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fugit,
+            quae beatae vero sit magni quaerat id ratione. Dolor optio unde amet
+            omnis sapiente neque cumque consequuntur reiciendis deserunt.
+            Dolorem vero exercitationem consequuntur, eligendi cupiditate
+            debitis facilis quibusdam magni. Eveniet.
+          </p>
+          <img
+            src="https://unsplash.it/401"
+            alt=""
+            class="slide-in from-right"
+          />
+        </div>
+        <div class="more-stuff-grid">
+          <img
+            src="https://unsplash.it/400"
+            alt=""
+            class="slide-in from-left"
+          />
+          <p class="slide-in from-right">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fugit,
+            quae beatae vero sit magni quaerat id ratione. Dolor optio unde amet
+            omnis sapiente neque cumque consequuntur reiciendis deserunt.
+            Dolorem vero exercitationem consequuntur, eligendi cupiditate
+            debitis facilis quibusdam magni. Eveniet.
+          </p>
+        </div>
+        <div class="more-stuff-grid">
+          <p class="slide-in from-left">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fugit,
+            quae beatae vero sit magni quaerat id ratione. Dolor optio unde amet
+            omnis sapiente neque cumque consequuntur reiciendis deserunt.
+            Dolorem vero exercitationem consequuntur, eligendi cupiditate
+            debitis facilis quibusdam magni. Eveniet.
+          </p>
+          <img
+            src="https://unsplash.it/401"
+            alt=""
+            class="slide-in from-right"
+          />
+        </div>
+      </div>
+    </main>
   
-  <div class="col-divider-margin-4"></div>
+  <!-- <div class="col-divider-margin-4"></div>
         
         <div class="col-md-6 bmargin">
           <h5 class="roboto-slab font-weight-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. </h5>
@@ -101,7 +223,7 @@
           
         <!--end item-->
         
-        <div class="clearfix"></div>
+        <!--<div class="clearfix"></div>
         <div class="col-divider-margin-4"></div>
         <div class="col-md-6 bmargin"><img src="https://picsum.photos/1000/500?random=2" style="width: 800px; height:500px;" alt="" class="img-responsive"/></div>
         <div class="col-md-6 bmargin">
@@ -116,7 +238,7 @@
           <a class="btn btn-pink-3 btn-round" href="#">Read more</a></div>
         <!--end item-->
         
-        <div class="clearfix"></div>
+        <!--<div class="clearfix"></div>
         <div class="col-divider-margin-4"></div>
         
         <div class="col-md-6 bmargin">
@@ -137,7 +259,7 @@
       </div>
     </div>
   </section>
-  <div class="clearfix"></div>
+  <div class="clearfix"></div> -->
   <!-- end section -->
   
   <section class="section-copyrights sec-moreless-padding">
@@ -165,5 +287,6 @@
 <script type="text/javascript" src="js/cubeportfolio/main.js"></script> 
  
 <script src="js/scripts/functions.js" type="text/javascript"></script>
+<script src="js/observers.js"></script>
 </body>
 </html>

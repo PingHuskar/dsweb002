@@ -532,5 +532,6 @@
 <script src="js/mainmenu/jquery.sticky.js"></script> 
  
 <script src="js/scripts/functions.js" type="text/javascript"></script>
+<script src="js/observers.js"></script>
 </body>
 </html>

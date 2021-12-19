@@ -154,6 +154,7 @@
 {
 	width: 100%;
 	height: 100%;
+	object-fit: cover;
 	/* border-radius:350px; */
 }
 
@@ -751,7 +752,7 @@
 	</div>
   <div class="element">
 		<div class="front">
-			<img src="images/staff/2.jpg" alt="">
+			<img src="images/staff/2.jpg" style="object-position: 0% 20%;" alt="">
 		</div>
 		<div class="back">
 			<div class="back-content">

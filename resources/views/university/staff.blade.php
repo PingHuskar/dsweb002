@@ -118,6 +118,572 @@
 }
 
 .col-lg-auto{flex:0 0 auto;width:auto}.col-lg-1{flex:0 0 auto;width:8.33333333%}.col-lg-2{flex:0 0 auto;width:16.66666667%}.col-lg-3{flex:0 0 auto;width:20%}.col-lg-4{flex:0 0 auto;width:33.33333333%}.col-lg-5{flex:0 0 auto;width:41.66666667%}.col-lg-6{flex:0 0 auto;width:50%}
+
+*
+{
+	margin:0;
+	padding: 0;
+}
+
+.element,.element1,.element2,.element3,.element4,.element5,.element6,.element7,.element8,.element9
+{
+	float: left;
+	width: 300px;
+	height: 300px;
+	position: relative;
+	margin: 5px;
+  
+}
+
+.front
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	/* bottom: 0; */
+	/* right: 0; */
+	left: 0;
+	transition: all 0.2s ease;
+	/* z-index: -1; */
+
+  
+}
+
+.front img
+{
+	width: 100%;
+	height: 100%;
+	/* border-radius:350px; */
+}
+
+.backr
+{
+	/*background:linear-gradient(to bottom right,red,yellow);*/
+	background-color:  rgba(4,146,208,1);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: flex-start;
+	padding-top: 10%;
+	align-items:center;
+	justify-content:center;
+	/* justify-content: flex-start; */
+	/* text-align: center; */
+	border:5px solid #222;
+	z-index: -2;
+	box-sizing:border-box;
+}
+.backe
+{
+	/*background:linear-gradient(to bottom right,red,yellow);*/
+	background-color:  rgba(2,191,2,1);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: flex-start;
+	padding-top: 10%;
+	align-items:center;
+	justify-content:center;
+	text-align: center;
+	border:5px solid #222;
+	z-index: -1;
+	box-sizing:border-box;
+}
+
+.pname
+{
+	font-weight: bold;
+	font-size: 18px;
+  width: 100%;
+	height: 100%;
+  bottom: 0;
+  padding-top: 30vh;
+}
+
+.description
+{
+	font-size: 12px;
+	/*margin:20px 0;*/
+}
+
+.back-content
+{
+  /* justify-content: center; */
+  text-align: center;
+	padding: 0 0px;
+}
+
+.icons .fa
+{
+	font-weight: bold;
+	font-size: 22px;
+	margin:0 5px;
+	z-index: 9999;
+}
+
+
+/*** elem ***/
+
+.element .back-content
+{
+	transform:scale(0);
+	opacity: 0;
+	transition:all 1s ease;
+	/* border-radius:350px; */
+  
+}
+
+.element:hover .front
+{
+  /* margin-top: 4vh; */
+	width: 20vh;
+	height: 20vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: auto;
+  
+  
+	left:calc(25%);
+	top:calc(15%);
+	/* right:calc(0%);
+	bottom:calc(0%); */
+
+}
+
+.element:hover .front img
+{
+	border-radius:10vh;
+  
+  /* justify-content: center;
+  align-items: center;
+  flex: center;
+  display: center; */
+	/* box-shadow: 0 0 20px black,0 0 40px black; */
+	/* box-shadow: 0 0 0 5px #fff; */
+}
+
+.element:hover .back-content
+{
+	transform:scale(1);
+	opacity: 1;
+}
+
+
+
+/**elem1 **/
+
+.element1 .back-content
+{
+	opacity: 0;
+	/* transform:translateY(-100px); */
+	transition:all 1s ease;
+}
+
+.element1:hover .back-content
+{
+	opacity: 1;
+	transform:translateY(0px);
+}
+
+.element1:hover .front
+{
+	opacity: 0;
+	top: -100%;
+}
+
+.element1 .back:before
+{
+	position: absolute;
+	content: '';
+	top: 200px;
+	bottom: 200px;
+	right: 50px;
+	left: 50px;
+	border-right: 2px solid #fff;
+	border-left: 2px solid #fff;
+	transition:all 1s ease;
+
+}
+
+.element1 .back:after
+{
+	position: absolute;
+	content: '';
+	top: 50px;
+	bottom: 50px;
+	right: 200px;
+	left: 200px;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	transition:all 1s ease;
+
+}
+
+.element1:hover .back:before
+{
+	top: 30px;
+	bottom: 30px;
+}
+
+.element1:hover .back:after
+{
+	right: 30px;
+	left: 30px;
+}
+
+/** elem2 styles **/
+
+.element2:hover .front
+{
+	opacity: 0;
+}
+
+.element2 .back-content
+{
+	transform:scale(0);
+	transition:all 0.5s ease;
+}
+
+.element2:hover .back-content
+{
+	transform:scale(1);
+}
+
+.element2 .see
+{
+	position: absolute;
+	width: 25%;
+	height: 100%;
+	left:0;
+	top: 0;
+	background-color: #222;
+	z-index: -3;
+	transition:all 0.5s ease;
+	transform:scale(0,1);
+}
+
+.element2 .back
+{
+	color: #fff;
+}
+
+.element2 .see:nth-child(2)
+{
+	left:calc(25%);
+}
+.element2 .see:nth-child(3)
+{
+	left:calc(50%);
+}
+.element2 .see:nth-child(4)
+{
+	left:calc(75%);
+}
+
+.element2:hover .see
+{
+	transform:scale(1,1);
+}
+
+
+/* elem3 stylings */
+
+.element3:hover .front
+{
+	opacity: 0;
+	transform:translateX(-400px)rotate(720deg);
+}
+
+.element3 .back-content
+{
+	transform:translateX(-50px);
+	opacity: 0;
+	transition:all 1s ease;
+}
+
+.element3:hover .back-content
+{
+	transform:translateX(0px);
+	opacity: 1;
+}
+
+.element3 .back:before
+{
+	position: absolute;
+	content: '';
+	border-right: 2px solid #fff;
+	border-left: 2px solid #fff;
+	top: 200px;
+	bottom: 200px;
+	right: 30px;
+	left: 30px;
+	transition:all 1s ease;
+}
+
+
+.element3 .back:after
+{
+	position: absolute;
+	content: '';
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	top: 30px;
+	bottom: 30px;
+	right: 200px;
+	left: 200px;
+	transition:all 1s ease;
+}
+
+.element3:hover .back:before
+{
+	top: 70px;
+	bottom: 70px;
+}
+
+.element3:hover .back:after
+{
+	right: 70px;
+	left: 70px;
+}
+
+
+/** elem4 stylings ***/
+
+.element4 
+{
+	overflow: hidden;
+}
+
+.element4 .front
+{
+	transform:skewX(0deg);
+	opacity: 1;
+	transition:transform 0.3s ease,left 0.5s ease 0.3s,opacity 0.5s ease 0.3s;
+}
+
+.element4:hover .front
+{
+	opacity: 0;
+	left: -100%;
+	transform:skewX(-20deg);
+}
+
+.element4 .back-content
+{
+	transform:scale(0);
+	opacity: 0;
+	transition:all 0.5s ease 0.3s;
+}
+
+.element4:hover .back-content
+{
+	transform:scale(1);
+	opacity: 1;
+}
+
+
+/*** element5 ***/
+
+.element5:hover .front
+{
+	transform:scale(0.35);
+	top: 90px;
+	box-shadow: 0 0 40px white,0 0 0 20px white,0 0 60px white;
+}
+
+.element5 .back-content
+{
+	transition:all 0.5s ease;
+}
+
+.element5:hover .back-content
+{
+	transform:translateY(-60px);
+}
+
+/*** element6 styles ***/
+
+.element6:hover .front
+{
+	transform:translateY(-100%)rotateX(720deg);
+	opacity: 0;
+}
+
+
+
+.element6 .back
+{
+	border-top-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+	background:linear-gradient(to bottom right,green,yellow);
+}
+
+.element6 .back-content .pname
+{
+	transform:translateY(-30px);
+	transition:all 1s ease;
+	opacity: 0;
+}
+
+.element6 .back-content .description
+{
+	opacity: 0;
+	transition:all 1s ease;
+}
+
+.element6 .back-content .icons
+{
+	transform:translateY(30px);
+	transition:all 1s ease;
+	opacity: 0;
+}
+
+.element6:hover .back-content .pname
+{
+	transform:translateY(0px);
+	opacity: 1;
+}
+
+.element6:hover .back-content .icons
+{
+	transform:translateY(0px);
+	opacity: 1;
+}
+
+.element6:hover .back-content .description
+{
+	opacity: 1;
+}
+
+/**** elem7 styles ***/
+
+.element7 .front
+{
+	transform:rotateY(0deg);
+	transform-origin:left;
+}
+
+.element7:hover .front
+{
+	transform:rotateY(180deg);
+
+}
+
+.element7 .back-content
+{
+	transform:scale(0);
+	opacity: 0;
+	transition:all 1s ease;
+}
+
+.element7:hover .back-content
+{
+	opacity: 1;
+	transform:scale(1);
+}
+
+/** element8 styles ***/
+
+.element8
+{
+	overflow: hidden;
+}
+
+.element8:hover .front
+{
+	opacity: 0;
+	transform:translateX(100%)rotate(360deg);
+}
+
+.element8 .back:before
+{
+	position: absolute;
+	content: '';
+	width: 0px;
+	height: 0px;
+	top: 35px;
+	right: 35px;
+	border-top:5px solid #fff;
+	border-right: 5px solid #fff;
+	transition:all 1s ease;
+}
+
+.element8 .back:after
+{
+	position: absolute;
+	content: '';
+	width: 0px;
+	height: 0px;
+	bottom: 35px;
+	left: 35px;
+	border-bottom:5px solid #fff;
+	border-left: 5px solid #fff;
+	transition:all 1s ease;
+}
+
+.element8:hover .back:before
+{
+	width: 100px;
+	height: 100px;
+}
+
+.element8:hover .back:after
+{
+	width: 100px;
+	height: 100px;
+}
+
+.element8 .back-content
+{
+	transform:translate(-100px,-100px)scale(0);
+	transition:all 1s ease;
+	opacity: 0;
+}
+
+.element8:hover .back-content
+{
+	transform:translate(0px,0px)scale(1);
+	opacity: 1;
+}
+
+/*** element9 styles ***/
+
+.element9
+{
+	overflow: hidden;
+}
+
+.element9:hover .front
+{
+	top: 100%;
+	opacity: 0;
+}
+
+
+.element9 .back
+{
+	border-bottom-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+	border: none;
+	top: -100%;
+	transition:all 0.5s ease;
+	opacity: 0;
+}
+
+.element9:hover .back
+{
+	top: 0;
+	opacity: 1;
+}
+.block {
+  padding-left: 7vw;
+}
 </style>
 
 
@@ -133,7 +699,7 @@
       <div class="navbar pink-3 navbar-default yamm">
         <div class="navbar-header">
           <button type="button" data-toggle="collapse" data-target="#navbar-collapse-grid" class="navbar-toggle two three"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-          <a href="/index" class="navbar-brand less-top-padding"><img src="images/logo.png" style="height: 50px;"alt=""/></a> </div>
+          <a href="/index" class="navbar-brand less-top-padding"><img src="images/logo.png" style="height: 8vh; width: 8vh;"alt=""/></a> </div>
         <div id="navbar-collapse-grid" class="navbar-collapse collapse pull-right">
           <ul class="nav pink-3 navbar-nav">
             <li><a href="/index" class="dropdown-toggle">หน้าแรก</a></li>
@@ -171,18 +737,82 @@
           <span class="section-divider"></span>
           <p class="section-description"></p>
         </div>
-        <div class="row">
+  <div class="block">
+  <div class="element">
+		<div class="front">
+			<img src="images/staff/1.png" alt="">
+		</div>
+		<div class="back">
+			<div class="back-content">
+				<div class="pname">ดร.ศิริลักษณ์ หล่อพันธ์มณี</div>
+				<div class="description">ประธานหลักสูตร</div>
+			</div>
+		</div>
+	</div>
+  <div class="element">
+		<div class="front">
+			<img src="images/staff/2.jpg" alt="">
+		</div>
+		<div class="back">
+			<div class="back-content">
+				<div class="pname">ผศ.ดร.วิชชา ฉิมพลี</div>
+				<div class="description"></div>
+			</div>
+		</div>
+	</div>
+  <div class="element">
+		<div class="front">
+			<img src="images/staff/3.png" alt="">
+		</div>
+		<div class="back">
+			<div class="back-content">
+				<div class="pname">ผศ.ดร.ศิริพร ฉิมพลี</div>
+				<div class="description"></div>
+			</div>
+		</div>
+	</div>
+  <div class="element">
+		<div class="front">
+			<img src="images/staff/4.jpg" alt="">
+		</div>
+		<div class="back">
+			<div class="back-content">
+				<div class="pname">ผศ.วัชรากร เนตรหาญ</div>
+				<div class="description"></div>
+			</div>
+		</div>
+	</div>
+  <div class="element">
+		<div class="front">
+			<img src="images/staff/5.jpg" alt="">
+		</div>
+		<div class="back">
+			<div class="back-content">
+				<div class="pname">อาจารย์ณรงค์ฤทธิ์ ภิรมย์นก</div>
+				<div class="description"></div>
+			</div>
+		</div>
+	</div>
+  <!-- <div class="element">
+		<div class="front">
+			<img src="images/staff/1.png" alt="">
+		</div>
+		<div class="back">
+			<div class="back-content">
+				<div class="pname">Lorem</div>
+				<div class="description"></div>
+			</div>
+		</div>
+	</div> -->
+</div>
+
+
+  <!-- <div class="row">
           <div class="col-lg-3 col-md-6">
             <div class="member">
               <div class="pic"><img src="images/staff/1.png" alt=""></div>
               <h4 style="font-family: Chakra Petch, sans-serif; padding-top: 20px;">ดร.ศิริลักษณ์ หล่อพันธ์มณี</h4>
               <span style="font-family: Chakra Petch, sans-serif;">ประธานหลักสูตร</span>
-              <div class="social">
-                <a href="#"><i class="bi bi-twitter"></i></a>
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
-              </div>
             </div>
           </div>
 
@@ -242,7 +872,7 @@
             </div>
           </div>
 
-        </div>
+        </div> -->
 
       </div>
     </section><!-- End Team Section -->

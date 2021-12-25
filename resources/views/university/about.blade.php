@@ -19,7 +19,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- Favicon -->
-<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 
 <!-- Google fonts - witch you want to use - (rest you can just remove) -->
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
@@ -70,17 +70,41 @@
     background: #f9f9f9 none repeat scroll 0 0;
     border: 1px solid #aaa;
     display: table;
-    font-size: 85%;
-    margin-bottom: 1em;
-    padding: 20px;
+    /* font-size: 85%; */
+    /* margin-bottom: 1em; */
+    /* padding: 20px; */
     width: auto;
+    display: block;
+    color: white;
+    text-align: center;
+    /* padding: 16px; */
+    text-decoration: none;
   }
   .toc_title {
     font-weight: 700;
     text-align: center;
   }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+  li {
+    float: left;
+}
+li:hover {
+  text-decoration: underline;
+}
   #toc_container li, #toc_container ul, #toc_container ul li{
     list-style: outside none none !important;
+    
+  }
+  .toc_list {
+    margin-left: 10vw;
+  }
+  .toc_list li {
+    margin-left: 2vw;
   }
 </style>
 </head>
@@ -92,7 +116,7 @@
       <div class="navbar pink-3 navbar-default yamm">
         <div class="navbar-header">
           <button type="button" data-toggle="collapse" data-target="#navbar-collapse-grid" class="navbar-toggle two three"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-          <a href="/index" class="navbar-brand less-top-padding"><img src="images/logo.png" style="height: 50px;"alt=""/></a> </div>
+          <a href="/index" class="navbar-brand less-top-padding"><img src="images/logo.jpg" style="height: 50px;"alt=""/></a> </div>
         <div id="navbar-collapse-grid" class="navbar-collapse collapse pull-right">
           <ul class="nav pink-3 navbar-nav">
             <li><a href="/index" class="dropdown-toggle">หน้าแรก</a></li>
@@ -120,10 +144,8 @@
   </div>
   <!--end menu-->
   <div class="clearfix"></div>
-  
-  <section>
-    <div class="container">
-    <div id="toc_container">
+  <div id="toc_container">
+  <!-- <div id="toc_container" style="position: relative; float: right;"> -->
       <p class="toc_title">Contents</p>
       <ul class="toc_list">
         <li><a href="#color">สีประจำหลักสูตร</a>
@@ -135,7 +157,11 @@
         <li><a href="#training">อบรม</a>
         <li><a href="#studentwork">ผลงานนักศึกษา</a>
       </ul>
-      </div>
+    </div>
+    <div class="clearfix"></div>
+  <section>
+    <div class="container">
+    
   <h1 id="color">สีประจำหลักสูตร</h1>
   <p>สีชมพู</p>
   <div class="divider-line solid light opacity-7 "></div>

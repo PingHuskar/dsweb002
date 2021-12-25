@@ -19,7 +19,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- Favicon -->
-<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 
 <!-- Google fonts - witch you want to use - (rest you can just remove) -->
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
@@ -93,7 +93,7 @@
       <div class="home-more-stuff">
         <div class="more-stuff-grid">
           <img
-            src="http://scitech.dusit.ac.th/wp-content/uploads/2021/11/banner_comsci.jpg"
+            src="images/banner_comsci.jpg"
             alt=""
             class="slide-in from-left"
           />
@@ -106,7 +106,7 @@
           เปิดรับสมัครนักศึกษา ประจำปีการศึกษา 2565 หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาอาชีวอนามัยและความปลอดภัย คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยสวนดุสิต Bachelor of Science Program in Occupational Health and Safety Faculty of Science and Technology, Suan Dusit University หลักสูตรระดับปริญญาตรีทางวิชาการ หลักสูตร 4 ปี หน่วยกิตที่เรียนตลอดหลักสูตร : จำนวน 140 หน่วยกิต สถานที่จัดการเรียนการสอน : มหาวิทยาลัยสวนดุสิต กรุงเทพมหานคร อาชีพที่สามารถประกอบได้หลังสําเร็จการศึกษา   – เจ้าหน้าที่ความปลอดภัยในการทํางานระดับวิชาชีพ
           </p>
           <img
-            src="http://scitech.dusit.ac.th/wp-content/uploads/2021/11/banner_ehd-2.jpg"
+            src="images/banner_ehd-2.jpg"
             alt=""
             class="slide-in from-right"
           />

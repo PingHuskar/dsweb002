@@ -142,12 +142,12 @@
     <!-- slide 3 -->
     <div class="ms-slide slide-3" data-delay="9">
       <div class="slide-pattern"></div>
-      <img src="http://scitech.dusit.ac.th/wp-content/uploads/2021/11/Researcher2021_newsize-3.jpg" data-src="http://scitech.dusit.ac.th/wp-content/uploads/2021/11/Researcher2021_newsize-3.jpg" alt=""/>
+      <img src="images/Researcher2021_newsize-3.jpg" data-src="images/Researcher2021_newsize-3.jpg" alt=""/>
             </div>
     <!-- end slide 3 -->
     <div class="ms-slide slide-2" data-delay="9">
       <div class="slide-pattern"></div>
-      <img src="http://scitech.dusit.ac.th/wp-content/uploads/2021/11/mouสำนักงานปรมาณู_newsize.jpg" data-src="http://scitech.dusit.ac.th/wp-content/uploads/2021/11/mouสำนักงานปรมาณู_newsize.jpg" alt=""/>
+      <img src="images/mouสำนักงานปรมาณู_newsize.jpg" data-src="images/mouสำนักงานปรมาณู_newsize.jpg" alt=""/>
       </div>
     <!-- slide 3 -->
 

@@ -19,7 +19,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- Favicon -->
-<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 
 <!-- Google fonts - witch you want to use - (rest you can just remove) -->
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
@@ -84,7 +84,7 @@ list-style: outside none none !important;
       <div class="navbar pink-3 navbar-default yamm">
         <div class="navbar-header">
           <button type="button" data-toggle="collapse" data-target="#navbar-collapse-grid" class="navbar-toggle two three"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-          <a href="/index" class="navbar-brand less-top-padding"><img src="images/logo.png" style="height: 50px;"alt=""/></a> </div>
+          <a href="/index" class="navbar-brand less-top-padding"><img src="images/logo.jpg" style="height: 50px;"alt=""/></a> </div>
         <div id="navbar-collapse-grid" class="navbar-collapse collapse pull-right">
           <ul class="nav pink-3 navbar-nav">
             <li><a href="/index" class="dropdown-toggle">หน้าแรก</a></li>

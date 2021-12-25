@@ -90,171 +90,30 @@
         <!-- <h1>Gallery</h1> -->
       </section>
 
-      <!-- <div class="home-about">
-        <h2>About us</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-        <div class="columns">
-          <div class="col fade-in">
-            <h3>Lorem, ipsum.</h3>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae
-              maiores fuga eos provident voluptas perferendis.
-            </p>
-          </div>
-          <div class="col fade-in">
-            <h3>A, illo!</h3>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatibus minima quo beatae eius blanditiis officiis.
-            </p>
-          </div>
-          <div class="col fade-in">
-            <h3>Repudiandae, error?</h3>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
-              quasi quis doloribus quia illum laudantium.
-            </p>
-          </div>
-        </div>
-      </div> -->
-
       <div class="home-more-stuff">
         <div class="more-stuff-grid">
           <img
-            src="https://unsplash.it/400"
+            src="http://scitech.dusit.ac.th/wp-content/uploads/2021/11/banner_comsci.jpg"
             alt=""
             class="slide-in from-left"
           />
-          <p class="slide-in from-right">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fugit,
-            quae beatae vero sit magni quaerat id ratione. Dolor optio unde amet
-            omnis sapiente neque cumque consequuntur reiciendis deserunt.
-            Dolorem vero exercitationem consequuntur, eligendi cupiditate
-            debitis facilis quibusdam magni. Eveniet.
+          <p class="slide-in from-right" style="margin-left: 50px">
+              สาขาวิชาทางคอมพิวเตอร์สาขาหนึ่ง ที่ว่าด้วยการกำหนดรูปแบบ และการนำเครื่องคอมพิวเตอร์และซอฟต์แวร์มาใช้งาน หรือสั่งให้ทำงานให้ตามความประสงค์ เป็นต้นว่า กระบวนการต่าง ๆ ในการประมวลผลข้อมูลเพื่อให้เป็นสารสนเทศ (information) ฯ
           </p>
         </div>
         <div class="more-stuff-grid">
           <p class="slide-in from-left">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fugit,
-            quae beatae vero sit magni quaerat id ratione. Dolor optio unde amet
-            omnis sapiente neque cumque consequuntur reiciendis deserunt.
-            Dolorem vero exercitationem consequuntur, eligendi cupiditate
-            debitis facilis quibusdam magni. Eveniet.
+          เปิดรับสมัครนักศึกษา ประจำปีการศึกษา 2565 หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาอาชีวอนามัยและความปลอดภัย คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยสวนดุสิต Bachelor of Science Program in Occupational Health and Safety Faculty of Science and Technology, Suan Dusit University หลักสูตรระดับปริญญาตรีทางวิชาการ หลักสูตร 4 ปี หน่วยกิตที่เรียนตลอดหลักสูตร : จำนวน 140 หน่วยกิต สถานที่จัดการเรียนการสอน : มหาวิทยาลัยสวนดุสิต กรุงเทพมหานคร อาชีพที่สามารถประกอบได้หลังสําเร็จการศึกษา   – เจ้าหน้าที่ความปลอดภัยในการทํางานระดับวิชาชีพ
           </p>
           <img
-            src="https://unsplash.it/401"
+            src="http://scitech.dusit.ac.th/wp-content/uploads/2021/11/banner_ehd-2.jpg"
             alt=""
             class="slide-in from-right"
           />
         </div>
-        <div class="more-stuff-grid">
-          <img
-            src="https://unsplash.it/400"
-            alt=""
-            class="slide-in from-left"
-          />
-          <p class="slide-in from-right">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fugit,
-            quae beatae vero sit magni quaerat id ratione. Dolor optio unde amet
-            omnis sapiente neque cumque consequuntur reiciendis deserunt.
-            Dolorem vero exercitationem consequuntur, eligendi cupiditate
-            debitis facilis quibusdam magni. Eveniet.
-          </p>
-        </div>
-        <div class="more-stuff-grid">
-          <p class="slide-in from-left">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fugit,
-            quae beatae vero sit magni quaerat id ratione. Dolor optio unde amet
-            omnis sapiente neque cumque consequuntur reiciendis deserunt.
-            Dolorem vero exercitationem consequuntur, eligendi cupiditate
-            debitis facilis quibusdam magni. Eveniet.
-          </p>
-          <img
-            src="https://unsplash.it/401"
-            alt=""
-            class="slide-in from-right"
-          />
-        </div>
-        <div class="more-stuff-grid">
-          <img
-            src="https://unsplash.it/400"
-            alt=""
-            class="slide-in from-left"
-          />
-          <p class="slide-in from-right">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fugit,
-            quae beatae vero sit magni quaerat id ratione. Dolor optio unde amet
-            omnis sapiente neque cumque consequuntur reiciendis deserunt.
-            Dolorem vero exercitationem consequuntur, eligendi cupiditate
-            debitis facilis quibusdam magni. Eveniet.
-          </p>
-        </div>
-        <div class="more-stuff-grid">
-          <p class="slide-in from-left">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fugit,
-            quae beatae vero sit magni quaerat id ratione. Dolor optio unde amet
-            omnis sapiente neque cumque consequuntur reiciendis deserunt.
-            Dolorem vero exercitationem consequuntur, eligendi cupiditate
-            debitis facilis quibusdam magni. Eveniet.
-          </p>
-          <img
-            src="https://unsplash.it/401"
-            alt=""
-            class="slide-in from-right"
-          />
-        </div>
+        
       </div>
     </main>
-  
-  <!-- <div class="col-divider-margin-4"></div>
-        
-        <div class="col-md-6 bmargin">
-          <h5 class="roboto-slab font-weight-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. </h5>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit augue. Cras tellus. In pulvinar lectus a est. Curabitur eget orci. Cras laoreet ligula. Etiam sit amet dolor. Vestibulum ante ipsum primis in faucibus</p>
-          <br/>
-          <ul class="iconlist dark">
-            <li><i class="fa fa-check"></i> Nullam turpis Cras dapibus orci rutrum </li>
-            <li><i class="fa fa-check"></i> Etiam enim Suspendisse imperdiet cursus nisi Maecenas </li>
-          </ul>
-          <br/>
-          <a class="btn btn-pink-3 btn-round" href="#">Read more</a></div>
-          
-          <div class="col-md-6 bmargin"><img src="https://picsum.photos/1000/500?random=1" style="width: 800px; height:500px;" alt="" class="img-responsive"/></div>
-          
-        <!--end item-->
-        
-        <!--<div class="clearfix"></div>
-        <div class="col-divider-margin-4"></div>
-        <div class="col-md-6 bmargin"><img src="https://picsum.photos/1000/500?random=2" style="width: 800px; height:500px;" alt="" class="img-responsive"/></div>
-        <div class="col-md-6 bmargin">
-          <h5 class="roboto-slab font-weight-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. </h5>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit augue. Cras tellus. In pulvinar lectus a est. Curabitur eget orci. Cras laoreet ligula. Etiam sit amet dolor. Vestibulum ante ipsum primis in faucibus</p>
-          <br/>
-          <ul class="iconlist dark">
-            <li><i class="fa fa-check"></i> Nullam turpis Cras dapibus orci rutrum </li>
-            <li><i class="fa fa-check"></i> Etiam enim Suspendisse imperdiet cursus nisi Maecenas </li>
-          </ul>
-          <br/>
-          <a class="btn btn-pink-3 btn-round" href="#">Read more</a></div>
-        <!--end item-->
-        
-        <!--<div class="clearfix"></div>
-        <div class="col-divider-margin-4"></div>
-        
-        <div class="col-md-6 bmargin">
-          <h5 class="roboto-slab font-weight-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. </h5>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit augue. Cras tellus. In pulvinar lectus a est. Curabitur eget orci. Cras laoreet ligula. Etiam sit amet dolor. Vestibulum ante ipsum primis in faucibus</p>
-          <br/>
-          <ul class="iconlist dark">
-            <li><i class="fa fa-check"></i> Nullam turpis Cras dapibus orci rutrum </li>
-            <li><i class="fa fa-check"></i> Etiam enim Suspendisse imperdiet cursus nisi Maecenas </li>
-          </ul>
-          <br/>
-          <a class="btn btn-pink-3 btn-round" href="#">Read more</a></div>
-          
-          <div class="col-md-6 bmargin"><img src="https://picsum.photos/1000/500?random=3" style="width: 800px; height:500px;" alt="" class="img-responsive"/></div>
-          
-        <!--end item--> 
         
       </div>
     </div>
